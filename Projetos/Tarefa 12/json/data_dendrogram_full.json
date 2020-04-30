@@ -1,0 +1,20 @@
+{"children":[
+	{"name":"Aula 1 - Introdução","children":
+		[
+			{"name":"Timeline","group":"A","value":10,"colname":"level3"},
+			{"name":"Hands-on","group":"A","value":10,"colname":"level3"},
+			{"name":"Histogram","group":"C","value":12,"colname":"level3"},
+			{"name":"Barras","group":"C","value":15,"colname":"level3"},
+			{"name":"Box Plot","group":"C","value":16,"colname":"level3"},
+			{"name":"Dispersão","group":"C","value":20,"colname":"level3"},
+			{"name":"Radar","group":"C","value":25,"colname":"level3"}],
+			"colname":"level2"},
+	{"name":"Aula 2 - Visualização Temporal","children":
+		[
+			{"name":"Tendências Multivariadas","group":"C","value":84,"colname":"level3"}],
+			"colname":"level2"},
+	{"name":"Aula 3 - Visualização Geográfica","children":
+		[
+			{"name":"Choropletes","group":"B","value":70,"colname":"level3"}],
+			"colname":"level2"}
+		],"name":"Visualização e Processamento do Conhecimento"}
