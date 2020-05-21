@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html class="ocks-org do-not-copy">
+<meta charset="utf-8">
+<title>Relações de Orientação entre grandes nomes da Ciência</title>
+<style>
+
+#circle circle {
+  fill: none;
+  pointer-events: all;
+}
+
+.group path {
+  fill-opacity: .5;
+}
+
+path.chord {
+  stroke: #000;
+  stroke-width: .25px;
+}
+
+#circle:hover path.fade {
+  display: none;
+}
+
+</style>
+
+<header>
+  <aside>Maio, 2020<br>Gina Szajnbok Harari</aside>
+ 
+</header>
+
+<h1>Relações de Orientação entre grandes nomes da Ciência</h1>
+
+<aside>Passe o mouse para focar nos relacionamentos de cada Cientista.
+
+<p>A espessura dos links entre as pessoas significa que o orientando também possui orientados, ou seja, deixou orientados que tiveram potencial de serem orientadores.</p> 
+
+<p>Para o peso, considerei o número de orientados do orientando multiplicado por 10. Quando o orientando não orientou ninguém, o peso ficou igual a 1, para não perder a aresta (link).</p>
+
+<p>Exemplo 1: De La Grange foi orientador de Poisson que teve 4 orientados. A relação entre De La Grange e Poisson ficou com peso 40.</p>
+
+<p>Exemplo 2: Poisson foi orientador de Gibbs, mas este não orientou ninguém. A relação entre Poisson e Gibbs ficou com peso 1 somente para manter uma aresta no grafo.</p>
+
+<p>Built with <a href="https://d3js.org/">D3</a>.</aside>
+
+<script src="//d3js.org/d3.v3.min.js" charset="utf-8"></script>
+<script src="//d3js.org/queue.v1.min.js"></script>
+<script>
+
+var width = 720,
+    height = 720,
+    outerRadius = Math.min(width, height) / 2 - 10,
+    innerRadius = outerRadius - 24;
+
+var formatPercent = d3.format(".1%");
+
+var arc = d3.svg.arc()
+    .innerRadius(innerRadius)
+    .outerRadius(outerRadius);
+
+var layout = d3.layout.chord()
+    .padding(.04)
+    .sortSubgroups(d3.descending)
+    .sortChords(d3.ascending);
+
+var path = d3.svg.chord()
+    .radius(innerRadius);
+
+var svg = d3.select("body").append("svg")
+    .attr("width", width)
+    .attr("height", height)
+  .append("g")
+    .attr("id", "circle")
+    .attr("transform", "translate(" + width / 2 + "," + height / 2 + ")");
+
+svg.append("circle")
+    .attr("r", outerRadius);
+
+queue()
+    .defer(d3.csv, "csv/cientistas.csv")
+    .defer(d3.json, "json/matrizchord.json")
+    .await(ready);
+
+function ready(error, cientistas, matrizchord) {
+  if (error) throw error;
+
+  // Compute the chord layout.
+  layout.matrix(matrizchord);
+
+  // Add a group per neighborhood.
+  var group = svg.selectAll(".group")
+      .data(layout.groups)
+    .enter().append("g")
+      .attr("class", "group")
+      .on("mouseover", mouseover);
+
+  // Add a mouseover title.
+  group.append("title").text(function(d, i) {
+    return cientistas[i].name + ": " + formatPercent(d.value) + " of origins";
+  });
+
+  // Add the group arc.
+  var groupPath = group.append("path")
+      .attr("id", function(d, i) { return "group" + i; })
+      .attr("d", arc)
+      .style("fill", function(d, i) { return cientistas[i].color; });
+
+  // Add a text label.
+  var groupText = group.append("text")
+      .attr("x", 6)
+      .attr("dy", 15);
+
+  groupText.append("textPath")
+      .attr("xlink:href", function(d, i) { return "#group" + i; })
+      .text(function(d, i) { return cientistas[i].name; });
+
+  // Remove the labels that don't fit. :(
+  groupText.filter(function(d, i) { return groupPath[0][i].getTotalLength() / 2 - 16 < this.getComputedTextLength(); })
+      .remove();
+
+  // Add the chords.
+  var chord = svg.selectAll(".chord")
+      .data(layout.chords)
+    .enter().append("path")
+      .attr("class", "chord")
+      .style("fill", function(d) { return cientistas[d.source.index].color; })
+      .attr("d", path);
+
+  // Add an elaborate mouseover title for each chord.
+  chord.append("title").text(function(d) {
+    return cientistas[d.source.index].name
+        + " → " + cientistas[d.target.index].name
+        + ": " + formatPercent(d.source.value)
+        + "\n" + cientistas[d.target.index].name
+        + " → " + cientistas[d.source.index].name
+        + ": " + formatPercent(d.target.value);
+  });
+
+  function mouseover(d, i) {
+    chord.classed("fade", function(p) {
+      return p.source.index != i
+          && p.target.index != i;
+    });
+  }
+}
+
+</script>

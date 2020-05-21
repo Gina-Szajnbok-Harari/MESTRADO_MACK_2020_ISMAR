@@ -1,0 +1,165 @@
+{
+	"nodes": [
+    
+    {"id": "Tartaglia", "group": 1},
+    {"id": "Galileo", "group": 1},
+    {"id": "Torricelli", "group": 1},
+    {"id": "Barrow", "group": 1},
+    {"id": "Newton", "group": 1},
+    {"id": "Hopkins", "group": 1},
+    {"id": "Maxwell", "group": 1},
+    {"id": "Cayley", "group": 1},
+    {"id": "Pascal", "group": 2},
+    {"id": "Mersenne", "group": 2},
+    {"id": "Roberval", "group": 2},
+    {"id": "Stokes", "group": 2},
+    {"id": "Routh", "group": 2},
+    {"id": "Rayleigh", "group": 2},
+    {"id": "Thomsom", "group": 2},
+    {"id": "Golius", "group": 3},
+    {"id": "Schooten", "group": 3},
+    {"id": "Huygens", "group": 3},
+    {"id": "Leibniz", "group": 3},
+    {"id": "Kant", "group": 3},
+    {"id": "Bose", "group": 3},
+    {"id": "Rutherford", "group": 3},
+    {"id": "Bragg", "group": 3},
+    {"id": "Descartes", "group": 4},
+    {"id": "Jacob Bernoulli", "group": 4},
+    {"id": "Johann Bernoulli", "group": 4},
+    {"id": "Daniel Bernoulli", "group": 4},
+    {"id": "Geiger", "group": 5},
+    {"id": "Kronecker", "group": 6},
+    {"id": "De La Grange", "group": 6},
+    {"id": "Euler", "group": 6},
+    {"id": "Bessel", "group": 7},
+    {"id": "Riemann", "group": 7},
+    {"id": "Lipschitz", "group": 7},
+    {"id": "Dirichlet", "group": 7},
+    {"id": "Fourier", "group": 7},
+    {"id": "Poisson", "group": 7},
+    {"id": "Laplace", "group": 7},
+    {"id": "D Alambert", "group": 7},
+    {"id": "Plaff", "group": 8},
+    {"id": "Gauss", "group": 8},
+    {"id": "Klein", "group": 8},
+    {"id": "Hilbert", "group": 8},
+    {"id": "Gibbs", "group": 8},
+    {"id": "Liouville", "group": 8},
+    {"id": "Birkoff", "group": 8},
+    {"id": "Mobius", "group": 9},
+    {"id": "Weierstrass", "group": 9},
+    {"id": "Kutta", "group": 9},
+    {"id": "Hermite", "group": 9},
+    {"id": "Poincare", "group": 10},
+    {"id": "Prigogine", "group": 10},
+    {"id": "Kummer", "group": 11},
+    {"id": "Bugaev", "group": 11},
+    {"id": "Kolmogorov", "group": 11},
+    {"id": "Arnold", "group": 11},
+    {"id": "Schwarz", "group": 12},
+    {"id": "Von Newmann", "group": 12},    
+    {"id": "Erdos", "group": 13}
+   ],
+  "links": [
+    {"source": "Tartaglia", "target": "Galileo", "value": 10},
+
+    {"source": "Galileo", "target": "Torricelli", "value": 10},
+
+    {"source": "Torricelli", "target": "Barrow", "value": 10},
+
+    {"source": "Barrow", "target": "Newton", "value": 10},
+
+    {"source": "Newton", "target": "Hopkins", "value": 40},
+
+    {"source": "Hopkins", "target": "Maxwell", "value": 1},
+    {"source": "Hopkins", "target": "Cayley", "value": 1},
+    {"source": "Hopkins", "target": "Stokes", "value": 10},
+    {"source": "Hopkins", "target": "Routh", "value": 10},
+
+    {"source": "Mersenne", "target": "Pascal", "value": 1},
+    {"source": "Mersenne", "target": "Schooten", "value": 10},
+    {"source": "Mersenne", "target": "Roberval", "value": 10},
+
+    {"source": "Roberval", "target": "Barrow", "value": 10},
+
+    {"source": "Stokes", "target": "Rayleigh", "value": 20},
+
+    {"source": "Rayleigh", "target": "Thomsom", "value": 20},
+    {"source": "Rayleigh", "target": "Bose", "value": 1},
+
+    {"source": "Thomsom", "target": "Rutherford", "value": 10},
+    {"source": "Thomsom", "target": "Bragg", "value": 1},
+
+    {"source": "Golius", "target": "Schooten", "value": 10},
+    {"source": "Golius", "target": "Descartes", "value": 1},
+
+    {"source": "Schooten", "target": "Huygens", "value": 10},
+
+    {"source": "Huygens", "target": "Leibniz", "value": 10},
+
+    {"source": "Leibniz", "target": "Kant", "value": 1},
+    {"source": "Leibniz", "target": "Jacob Bernoulli", "value": 10},
+
+    {"source": "Rutherford", "target": "Geiger", "value": 1},
+
+    {"source": "Jacob Bernoulli", "target": "Johann Bernoulli", "value": 20},       
+
+    {"source": "Johann Bernoulli", "target": "Daniel Bernoulli", "value": 1},        
+    {"source": "Johann Bernoulli", "target": "Euler", "value": 10},     
+
+    {"source": "De La Grange", "target": "Fourier", "value": 1},
+    {"source": "De La Grange", "target": "Poisson", "value": 40},    
+
+    {"source": "Euler", "target": "De La Grange", "value": 20},
+
+    {"source": "Bessel", "target": "Kummer", "value": 20},
+
+    {"source": "Lipschitz", "target": "Klein", "value": 20},
+
+    {"source": "Dirichlet", "target": "Kronecker", "value": 1},
+    {"source": "Dirichlet", "target": "Lipschitz", "value": 10},
+
+    {"source": "Fourier", "target": "Dirichlet", "value": 20},
+
+    {"source": "Poisson", "target": "Dirichlet", "value": 20},
+    {"source": "Poisson", "target": "Gibbs", "value": 1},
+    {"source": "Poisson", "target": "Liouville", "value": 10},
+    {"source": "Poisson", "target": "Birkoff", "value": 1},
+
+    {"source": "Laplace", "target": "Poisson", "value": 40},
+
+    {"source": "D Alambert", "target": "Laplace", "value": 10},
+
+    {"source": "Plaff", "target": "Gauss", "value": 40},
+    {"source": "Plaff", "target": "Mobius", "value": 1},    
+
+    {"source": "Gauss", "target": "Bessel", "value": 10},
+    {"source": "Gauss", "target": "Riemann", "value": 1},
+    {"source": "Gauss", "target": "Klein", "value": 20},
+    {"source": "Gauss", "target": "Weierstrass", "value": 20},
+
+    {"source": "Klein", "target": "Hilbert", "value": 1},
+    {"source": "Klein", "target": "Kutta", "value": 1},   
+
+    {"source": "Liouville", "target": "Hermite", "value": 10},
+
+    {"source": "Weierstrass", "target": "Bugaev", "value": 10},
+    {"source": "Weierstrass", "target": "Schwarz", "value": 20},
+
+    {"source": "Hermite", "target": "Poincare", "value": 10},
+
+    {"source": "Kummer", "target": "Bugaev", "value": 10},
+    {"source": "Kummer", "target": "Schwarz", "value": 20},
+
+    {"source": "Bugaev", "target": "Kolmogorov", "value": 10},
+
+    {"source": "Kolmogorov", "target": "Arnold", "value": 1},
+
+    {"source": "Poincare", "target": "Prigogine", "value": 1},  
+
+    {"source": "Schwarz", "target": "Von Newmann", "value": 1},    
+    {"source": "Schwarz", "target": "Erdos", "value": 1} 
+
+  ]
+}
