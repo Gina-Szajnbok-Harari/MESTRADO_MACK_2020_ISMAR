@@ -13,4 +13,12 @@ TAREFAS E LINKS:
 8) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%208
 9) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%209
 10) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2010
+11) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2011
+12) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2012
+13) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2013
+14) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2014
+15) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2015
+16) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2016
+17) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2017
+
 
