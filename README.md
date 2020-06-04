@@ -22,6 +22,8 @@ TAREFAS E LINKS:
 17) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa_17
 
 Hands on
+https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Hands-on_Cloud_Visualizacao_de_texto
+
 
 
 
