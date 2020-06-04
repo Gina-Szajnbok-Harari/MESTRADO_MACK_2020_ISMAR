@@ -1,0 +1,101 @@
+{
+    "name": "Arvore Genealógica",
+    "children": [
+        {
+            "name": "Dvorah",
+            "group": "1",
+            "children": [
+                {               
+                    "name": "Paulo",
+                    "group": "2",
+                    "children": [
+                        {               
+                            "name": "Bianca",
+                            "group": "3",
+                            "children": [
+                                {
+                                    "name": "Ariel",
+                                    "group": "4"
+                                },
+                                {
+                                    "name": "Benjamin",
+                                    "group": "4"
+                                },
+                                {
+                                    "name": "Lea",
+                                    "group": "4"
+                                }
+                            ]
+                        },
+                        {   "name": "David",
+                            "group": "3",
+                            "children": [
+                                {
+                                    "name": "Chaim",
+                                    "group": "4"
+                                },
+                                {
+                                    "name": "Mendel",
+                                    "group": "4"
+                                }
+                            ]
+                        },
+                        {   "name": "Yentel",
+                            "group": "3",
+                            "children": [
+                                {
+                                    "name": "Sarah",
+                                    "group": "4"
+                                }
+                            ]
+                        },
+                        {   "name": "Miriam",
+                            "group": "3"
+                        }
+                    ]
+                },
+                {               
+                    "name": "Gina",
+                    "group": "2",
+                    "children": [
+                        {               
+                            "name": "Rachel",
+                            "group": "3"
+                        },
+                        {   "name": "Cesar",
+                            "group": "3"
+                        }
+                     ]
+                },                        
+                {               
+                    "name": "Moisés",
+                    "group": "2",
+                    "children": [
+                        {               
+                            "name": "Luiz",
+                            "group": "3"
+                        },
+                        {   "name": "Leo",
+                            "group": "3"
+                        }
+                     ]
+                },        
+                {               
+                    "name": "Israel",
+                    "group": "2",
+                    "children": [
+                        {               
+                            "name": "Rafael",
+                            "group": "3"
+                        },
+                        {   "name": "Gabriel",
+                            "group": "3"
+                        }
+                    ]
+                }        
+            ]
+        }     
+    ]
+}
+
+

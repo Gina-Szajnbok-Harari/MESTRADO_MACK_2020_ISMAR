@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <title>Circle Packing Tree</title>
+    <link type="text/css" rel="stylesheet" href="../ex.css?3.1"/>
+    <script type="text/javascript" src="../protovis-r3.2.js"></script>
+    <script type="text/javascript" src="flare.js"></script>
+    <style type="text/css">
+        #fig {
+            width: 800px;
+            height: 900px;
+        }
+    </style>
+  </head>
+  <body><div id="center"><div id="fig">
+    <script type="text/javascript+protovis">
+
+      function onNodeClick(node) {
+        var path = node.nodeName;
+        var parentNode = node.parentNode;
+        while(parentNode) {
+          path = parentNode.nodeName + "/" + path;
+          parentNode = parentNode.parentNode;
+        }
+        top.location = "http://svn.prefuse.org/flare/trunk/flare/flare/src/" + path + (node.firstChild?"/":".as");
+      }
+
+      var vis = new pv.Panel()
+          .width(800)
+          .height(800)
+          .margin(2);
+
+      var layout = vis.add(pv.Layout.Pack)
+          .nodes(pv.dom(flare).root("flare").nodes())
+          .size(function(d) d.nodeValue)
+
+      layout.node.add(pv.Dot)
+          .fillStyle(function(d) d.firstChild ? "rgba(31, 119, 180, .25)" : "#ff7f0e")
+          .title(function t(d) d.parentNode ? (t(d.parentNode) + "." + d.nodeName) : d.nodeName)
+          .cursor("pointer")
+          .event("click", onNodeClick)
+        .anchor("top").add(pv.Label)
+          .visible(function(n) n.firstChild)
+          .textBaseline("top")
+          .textStyle("white")
+          .text(function(n) n.nodeName);
+
+      vis.render();
+
+    </script>
+<div class="caption">
+The Flare package tree recursively packed into circles. 
+<br/><br/>
+Source: <a class="source" href="http://flare.prefuse.org">Flare Visualization Toolkit</a>
+</div>
+  </div></div></body>
+</html>
