@@ -1,7 +1,9 @@
 # MESTRADO_MACK_2020_ISMAR 
-Repositório para as atividades da disciplina 001ENST09921.03859-01A - VISUALIZACAO/PROCES DE CONHECIMENTO [turma 01A] - 2020
+Repositório para as atividades da disciplina 
 
-TAREFAS E LINKS:
+001ENST09921.03859-01A - VISUALIZACAO/PROCES DE CONHECIMENTO [turma 01A] - 2020
+
+LINKS DAS TAREFAS E HANDS ON:
 
 1) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%201
 2) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%202
