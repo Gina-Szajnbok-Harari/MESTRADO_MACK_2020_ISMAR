@@ -1,0 +1,40 @@
+.name "Modelo_SIR"
+.type PN
+
+.places
+Suscetivel
+MortoInfectado
+MortoVelhiceOutrasCausas
+MortoIneficaciaVacina
+Infectado
+Recuperado
+Imune
+RedeSocialOnline
+
+.transitions
+EncontraInfectado
+MorreInfectado
+SeInfectaeSeCura
+morreVelhiceouOutrasCausas
+SeVacinaeSeImuniza
+MorreIneficienciaVacina
+MISeTornaRNSuscetivel
+TrueOrFakeNews
+SeVacinaeSeRecupera
+MIVSeTornaRNSuscetivel
+MVOCSeTornaRNSuscetivel
+
+.flows
+EncontraInfectado: {1*Suscetivel} -> {1*Infectado}
+MorreInfectado: {1*Infectado} -> {1*MortoInfectado}
+SeInfectaeSeCura: {1*Infectado} -> {1*Recuperado}
+morreVelhiceouOutrasCausas: {1*Recuperado} -> {1*MortoVelhiceOutrasCausas}
+SeVacinaeSeImuniza: {1*Suscetivel} -> {1*Imune}
+MorreIneficienciaVacina: {1*Recuperado} -> {1*MortoIneficaciaVacina}
+MISeTornaRNSuscetivel: {1*MortoInfectado} -> {1*Suscetivel}
+TrueOrFakeNews: {1*RedeSocialOnline} -> {1*Suscetivel}
+SeVacinaeSeRecupera: {1*Suscetivel} -> {1*Recuperado}
+MIVSeTornaRNSuscetivel: {1*MortoIneficaciaVacina} -> {1*Suscetivel}
+MVOCSeTornaRNSuscetivel: {1*MortoVelhiceOutrasCausas} -> {1*Suscetivel}
+
+.initial_marking {1*Imune, 99*RedeSocialOnline}
