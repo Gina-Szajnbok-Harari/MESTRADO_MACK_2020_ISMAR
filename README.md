@@ -15,7 +15,7 @@ LINKS DAS TAREFAS E HANDS ON:
 8) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%208
 9) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%209
 10) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2010
-11) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos (arquivo zipado Tarefa 11.zip - muitos dados dos arquivos espaço-teporais)
+11) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos (arquivo zipado Tarefa 11.zip - muitos dados dos arquivos espaço-temporais)
 12) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%2012
 13) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/(nao consegui terminar ainda)
 14) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/(nao consegui terminar ainda)
