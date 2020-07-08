@@ -1,0 +1,2169 @@
+[ {
+  "@id" : "_:genid1",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid10",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid100",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid103",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid106",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid109",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid112",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid115",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid118",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid121",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid124",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid127",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid13",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid130",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid133",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid136",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid139",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid142",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid145",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid148",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid151",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid154",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid157",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid16",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid160",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid163",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid166",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid169",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid172",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid175",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDisjointProperties" ],
+  "http://www.w3.org/2002/07/owl#members" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid22",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid25",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid28",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid31",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid34",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid37",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid4",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid40",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid43",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid46",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid49",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid52",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid55",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid58",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid61",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid64",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid67",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid7",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid70",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid73",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid76",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid79",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid82",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid85",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid88",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid91",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid94",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"
+    } ]
+  } ]
+}, {
+  "@id" : "_:genid97",
+  "@type" : [ "http://www.w3.org/2002/07/owl#AllDifferent" ],
+  "http://www.w3.org/2002/07/owl#distinctMembers" : [ {
+    "@list" : [ {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01"
+    }, {
+      "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02"
+    } ]
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Ontology" ],
+  "http://www.w3.org/2002/07/owl#versionIRI" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia/1.0.0"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDefinition" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiagnosisGuideline" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEpidemiology" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPathophysiology" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentGuideline" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_1stDiagnosticTesttoOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_1stOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_AdjunctOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_PlusOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_1stOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_PlusOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Angotensin-IIReceptorAntagonist",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AntiviralTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BloodandSputumCultureStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CDCCriteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ChloroquineandHidroxyChloroquineTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ConvalescentPlasma",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CorticosteroidsTreatmentStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2002/07/owl#disjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_EmergingTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ExperimentalTherapiesStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpComplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpMonitoring",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpPrognosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_GeneralPreventionMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_1stOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_AdjunctOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_PlusOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ImageTestingStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAngiotensin-IIReceptorAntagonistEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAntiviralEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_CorticosteroidsTreatmentStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ExperimentalTherapiesStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_InfectionPreventionTreatamentandControlStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_SpecialPatientGroupTreatmentStep" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChloroquineandHydroxyChloroquineEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfirmedSARS-CoV2infetion" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConvalescentPasmaEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpComplication" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpPrognosis" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasIntravenousImmonoglobulinEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasStemCellTherapyEmergingOption" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTraditionalChineseMedicineEmergngOption" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionDiagnosticandControlStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionTreatamentandControlStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialInvestigationStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_IntravenousImmunoglobulinTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_KeyDiagnosticFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithPneumoniaorComorbidityStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MedicalMask",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MolecularTestingStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OnlineResources",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticTesttoConsider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PatientInstruction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Quarantine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEmergingTest" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpComplication" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpPrognosis" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpRecommentation" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RiskFactor",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SpecialPatientGroupTreatmentStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StemCellTherapy",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGeneralPreventioMeasure" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasntSymtoms" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGeneralPreventioMeasure" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasManagementofContact" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMedicaMaskPreventionMeasure" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningandQuarantinePreventionMeasures" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningofTraveller" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasVaccinePreventionMeasure" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#has1stDiagnosticTesttoOrder" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasOthertesttoConsider" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSuspectedSARS-CoV-2Infection" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TraditionalChineseMedicine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Vaccine",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_WHOCriteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ],
+  "http://www.w3.org/2000/01/rdf-schema#subClassOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAge" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "30"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCaseHistoryDescription" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCough" : [ {
+    "@value" : "4 days\nbad"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDateofHospitalAdmission" : [ {
+    "@value" : "14/01/2020"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiastolicPressure" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : "38.5"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGendre" : [ {
+    "@value" : "M"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHeadache" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHistory" : [ {
+    "@value" : "Returned from Business trip\nmainland China\n6 days ago"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPulse" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "100"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasShortofBreath" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSysytolicPressure" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAge" : [ {
+    "@value" : "61"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCaseHistoryDescription" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCough" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDateofHospitalAdmission" : [ {
+    "@value" : "03/02/2020"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiastolicPressure" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#decimal",
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFatigue" : [ {
+    "@value" : "Tired"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital" : [ {
+    "@value" : ""
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGendre" : [ {
+    "@value" : "M"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPulse" : [ {
+    "@type" : "http://www.w3.org/2001/XMLSchema#integer",
+    "@value" : "120"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasShortofBreath" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19EvaluationofPatientUnderInvestigationPUI" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#Class" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAbdominalPain" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAnorexia" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChestPain" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfusion" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiarrhoea" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDizziness" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHaemoptysis" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasNauseaVomiting" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasRhinorrhoea" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSoreThroat" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSputumProduction" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : ""
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS-CoV-2",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAetiology" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDefinition" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO",
+  "@type" : [ "http://www.w3.org/2002/07/owl#NamedIndividual", "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition" ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaConfirmedCase" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaProbableCase" : [ {
+    "@value" : "Y"
+  } ],
+  "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaSuspectedCase" : [ {
+    "@value" : "Y"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#has1stDiagnosticTesttoOrder",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAbdominalPain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAcuteTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAetiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAge",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAngiotensin-IIReceptorAntagonistEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAnorexia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAntiviralEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaConfirmedCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaProbableCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaSuspectedCase",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19EvaluationofPatientUnderInvestigationPUI",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_CorticosteroidsTreatmentStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ExperimentalTherapiesStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_InfectionPreventionTreatamentandControlStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_SpecialPatientGroupTreatmentStep",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCaseHistoryDescription",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChestPain",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChloroquineandHydroxyChloroquineEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfirmedSARS-CoV2infetion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAcuteTreatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfusion",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConvalescentPasmaEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCough",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDateofHospitalAdmission",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDefinition",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiagnosisGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiarrhoea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiastolicPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDizziness",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDyspnoea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEmergingTest",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEpidemiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFatigue",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpComplication",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpPrognosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpRecommentation",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGendre",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGeneralPreventioMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHaemoptysis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHeadache",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHistory",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasInitialTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasIntravenousImmonoglobulinEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasManagementofContact",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMedicaMaskPreventionMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMialgia",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasNauseaVomiting",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasOthertesttoConsider",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPathophysiology",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofFollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofTreatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofFollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ],
+  "http://www.w3.org/2002/07/owl#inverseOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofDiagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"
+  }, {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPulse",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#integer"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasRhinorrhoea",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"
+  } ],
+  "http://www.w3.org/2002/07/owl#propertyDisjointWith" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningandQuarantinePreventionMeasures",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningofTraveller",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasShortofBreath",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSoreThroat",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSputumProduction",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#boolean"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasStemCellTherapyEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofDiagnosis",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofFollowUp",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofPrevention",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofTreatment",
+  "@type" : [ "http://www.w3.org/2002/07/owl#ObjectProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty", "http://www.w3.org/2002/07/owl#InverseFunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSuspectedSARS-CoV-2Infection",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasInitialTreatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSysytolicPressure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTraditionalChineseMedicineEmergngOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentGuideline",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasVaccinePreventionMeasure",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ],
+  "http://www.w3.org/2000/01/rdf-schema#domain" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#range" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#string"
+  } ],
+  "http://www.w3.org/2000/01/rdf-schema#subPropertyOf" : [ {
+    "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"
+  } ]
+}, {
+  "@id" : "http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasntSymtoms",
+  "@type" : [ "http://www.w3.org/2002/07/owl#DatatypeProperty", "http://www.w3.org/2002/07/owl#FunctionalProperty" ]
+}, {
+  "@id" : "http://www.w3.org/2001/XMLSchema#string",
+  "http://www.w3.org/2002/07/owl#equivalentClass" : [ {
+    "@id" : "http://www.w3.org/2001/XMLSchema#decimal"
+  } ]
+} ]

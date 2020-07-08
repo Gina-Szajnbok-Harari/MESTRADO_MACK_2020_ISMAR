@@ -1,0 +1,21 @@
+   INFO  23:48:02  OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+   INFO  23:48:12  ------------------------------- Loading Ontology -------------------------------
+   INFO  23:48:12  Loading ontology from file:/C:/Projects/MACK/D3/hands-on/Projetos/Aula_10_Ontologia/Ontology_project_GSH_72008075/Phase%202%20-%20Final%20Project_Epidemiology_RDF_XML.owl
+   INFO  23:48:14  Finished loading file:/C:/Projects/MACK/D3/hands-on/Projetos/Aula_10_Ontologia/Ontology_project_GSH_72008075/Phase%202%20-%20Final%20Project_Epidemiology_RDF_XML.owl
+   WARN  23:48:14  No OBDA model was loaded because no .obda file exists in the same location as the .owl file
+   INFO  23:48:14  Loading for ontology and imports closure successfully completed in 1838 ms
+   INFO  23:48:14  
+   INFO  23:48:15  ---------------------------- Disposing of Workspace ----------------------------
+   INFO  23:48:15  Saved tab state for 'Individual Hierarchy Tab' tab
+   INFO  23:48:15  Saved tab state for 'Entities' tab
+   INFO  23:48:15  Saved tab state for 'Active ontology' tab
+   INFO  23:48:15  Saved tab state for 'DL Query' tab
+   INFO  23:48:15  Saved tab state for 'Individuals by class' tab
+   INFO  23:48:15  Saved workspace
+   INFO  23:48:15  Disposed of 'Individual Hierarchy Tab' tab
+   INFO  23:48:15  Disposed of 'Entities' tab
+   INFO  23:48:15  Disposed of 'Active ontology' tab
+   INFO  23:48:15  Disposed of 'DL Query' tab
+   INFO  23:48:15  Disposed of 'Individuals by class' tab
+   INFO  23:48:15  Disposed of workspace
+   INFO  23:48:15  

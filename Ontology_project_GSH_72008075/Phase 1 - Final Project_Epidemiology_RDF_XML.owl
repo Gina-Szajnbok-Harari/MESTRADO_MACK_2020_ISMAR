@@ -1,0 +1,1700 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#"
+     xml:base="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_1stDiagnosticTesttoOrder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_1stDiagnosticTesttoOrder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:comment>1st Diagnostic Test to Order
+
+-pulse oximetry Test.
+• Order in patients with severe illness.
+• Recommended in patients with respiratory distress and cyanosis.
+-pulse oximetry Result
+• may show low oxygen saturation (SpO₂ &lt;90%)
+
+-ABG Test
+• Order in patients with severe illness as indicated to detect
+hypercarbia or acidosis.
+• Recommended in patients with respiratory distress and cyanosis who
+have low oxygen saturation (SpO₂ &lt;90%).
+-ABG Result
+may show low partial oxygen pressure
+
+-FBC Test
+• Order in patients with severe illness.
+• The most common laboratory abnormalities in patients hospitalised with pneumonia include leukopenia, lymphopenia, and leukocytosis. Other abnormalities include neutrophilia, thrombocytopenia, and decreased haemoglobin.
+-FBC Result
+leukopenia; lymphopenia; leukocytosis
+
+-coagulation screen Test
+• Order in patients with severe illness.
+• The most common abnormalities are elevated D-dimer and prolonged
+prothrombin time.
+• Non-survivors had significantly higher D-dimer levels and longer
+prothrombin time and activated partial thromboplastin time compared
+with survivors in one study.
+-coagulation screen Result
+elevated D-dimer; prolonged prothrombin time
+
+-comprehensive metabolic panel Test
+• Order in patients with severe illness.
+• The most common laboratory abnormalities in patients hospitalised
+with pneumonia include elevated liver transaminases. Other
+abnormalities include decreased albumin and renal impairment
+-comprehensive metabolic panel Result
+elevated liver transaminases; decreased albumin; renal impairment
+
+-serum procalcitonin Test
+• Order in patients with severe illness.
+• May be elevated in patients with secondary bacterial infection.
+-serum procalcitonin Result
+may be elevated
+
+-serum C-reactive protein Test
+• Order in patients with severe illness.
+• May be elevated in patients with secondary bacterial infection.
+-serum C-reactive protein Result
+may be elevated
+
+-serum lactate dehydrogenase Test
+• Order in patients with severe illness.
+• Elevated lactate dehydrogenase has been reported in 73% to 76% of
+patients.
+• Indicates liver injury or lysis of blood erythrocytes.
+-serum lactate dehydrogenase Result
+may be elevated
+
+-serum creatine kinase Test
+• Order in patients with severe illness.
+• Elevated creatine kinase has been reported in 13% to 33% of
+patients.[5] [6]
+• Indicates muscle or myocardium injury.
+-serum creatine kinase Result
+may be elevated
+
+-serum troponin level Test
+• Order in patients with severe illness.
+• May be elevated in patients with cardiac injury.
+-serum troponin level Result
+may be elevated
+
+-blood and sputum cultures Test
+• Collect blood and sputum specimens for culture in all patients to
+rule out other causes of lower respiratory tract infection, especially
+patients with an atypical epidemiological history.
+• Specimens should be collecte prior to starting empirical antimicrobials if possible.
+-blood and sputum cultures Result
+negative for bacterial infection
+
+-real-time reverse transcription polymerase chain reaction (RTPCR) Test
+• Molecular testing is required to confirm the diagnosis. Nucleic acid
+sequencing may be required to confirm the diagnosis.[64]
+• Collect upper respiratory specimens (nasopharyngeal and
+oropharyngeal swab or wash) in ambulatory patients and/or lower
+respiratory specimens (sputum and/or endotracheal aspirate or
+bronchoalveolar lavage) in patients with more severe respiratory
+disease. Also consider collecting additional clinical specimens (e.g.,
+blood, stool, urine). Specimens should be collected under appropriate
+infection prevention and control procedures.[64]
+• If a negative result is obtained from a patient with a high index of
+suspicion for COVID-19, additional specimens should be collected
+and tested, especially if only upper respiratory tract specimens were
+collected initially.[64]
+• The US Food and Drug Administration has issued an emergency-use
+authorisation to enable emergency use of the US Center for Disease
+Control and Prevention (CDC)’s RT-PCR diagnostic panel, which
+allows testing at any CDC-qualified laboratory in the US.[75] This test
+is also available in many laboratories worldwide and testing should be
+done according to instructions from local health authorities.
+• Collect nasopharyngeal swabs to rule out influenza and other
+respiratory infections according to local guidance. It is important to
+note that co-infections can occur.
+-real-time reverse transcription polymerase chain reaction (RTPCR) Result
+positive for severe acute respiratory syndrome coronavirus 2 (SARSCoV-2) viral RNA; 
+negative for influenza A and B viruses and other respiratory pathogensç
+
+-chest x-ray Test
+• Order in all patients with suspected pneumonia.
+• Unilateral lung infiltrates are found in 25% of patients, and bilateral
+lung infiltrates are found in 75% of patients.
+-chest x-ray Result
+unilateral or bilateral lung infiltrates</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+        <rdfs:comment>Acute Confirmed with Pneumonia or Comorbity 1st Option
+
+hospital admission and infection prevention and control procedures
+
+» Promptly admit patients with pneumonia or respiratory distress to an appropriate healthcare facility. Patients with impending or established respiratory failure should be admitted to an intensive care unit.
+ 
+» Immediately isolate all confirmed cases in an area separate from other patients, and implement appropriate infection prevention and control procedures. Detailed guidance is available from the WHO and the CDC:
+
+» [WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected] 
+
+» [CDC: interim infection prevention and control recommendations for patients with confirmed coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare settings]
+
+» COVID-19 is a notifiable disease; report all confirmed cases to your local health authorities. 
+
+» Consider home care, if suitable, in symptomatic patients who no longer require hospitalisation.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_AdjunctOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_AdjunctOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+        <rdfs:comment>Acute Confirmed with Pneiumonia or Comorbidity Adjuct Option 1
+
+mechanical ventilation
+
+Treatment recommended for SOME patients in selected patient group 
+
+» Intubation and mechanical ventilation are recommended in patients who are deteriorating and cannot maintain an SpO₂ ≥90% with oxygen therapy.[80] Some patients may develop severe hypoxic respiratory failure, requiring a high fraction of inspired oxygen, and high air flow rates to match inspiratory flow demand. Patients may also have increased work of breathing, demanding positive pressure breathing assistance.
+
+» High-flow nasal oxygen and non-invasive ventilation are recommended in select patients. Mechanically ventilated patients with acute respiratory distress syndrome should receive a
+lung-protective, low tidal volume/low inspiratory pressure ventilation strategy. Those with persistent severe hypoxic failure should be considered for prone ventilation.
+
+» The risk of treatment failure is high in patients with non-acutely reversible conditions, and there is also concern about nosocomial transmission with open ventilation systems and suboptimal non-invasive face mask or nasal pillow seals. More research to define the balance of benefits and risks to patients and health workers is needed.
+
+» Some patients may require extracorporeal membrane oxygenation (ECMO) according to availability and expertise.
+
+» It is important to follow local infection prevention and control procedures to prevent transmission to healthcare workers. Endotracheal intubation should be performed by an experienced provider using airborne precautions.
+
+Acute Confirmed with Pneiumonia or Comorbidity Adjuct Option 2
+
+experimental therapies
+
+Treatment recommended for SOME patients in selected patient group
+
+» Consider using experimental drug therapies. Antivirals and other drugs are being used in patients with COVID-19; however, unlicensed or experimental treatments should only be administered in the context of ethically-approved clinical trials. See the Emerging section for more information about these treatments.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+        <rdfs:comment>Acute Confirmed with Pneumonia or Comorbity Plus Option
+
+supportive care plus monitoring 
+
+Treatment recommended for ALL patients in selected patient group
+
+» Immediately start supportive care.
+
+» Oxygen: give supplemental oxygen at a rate of 5 L/minute to patients with severe acute respiratory infection and respiratory distress, hypoxaemia, or shock. Titrate flow rates to reach a target SpO₂ ≥90%.
+
+» Fluids: manage fluids conservatively in patients with severe acute respiratory infection when there is no evidence of shock as aggressive fluid resuscitation may worsen oxygenation.
+
+» Symptom relief: give an antipyretic/analgesic for the relief of fever and pain.
+
+» Monitor patients closely for signs of clinical deterioration, such as rapidly progressive respiratory failure and sepsis, and start general supportive care interventions as indicated 
+(e.g., haemodialysis, vasopressor therapy, fluid resuscitation, ventilation, antimicrobials) as appropriate.
+
+» Some patients with severe illness may require continued antimicrobial therapy once COVID-19 has been confirmed depending on the clinical circumstances.
+
+» Pregnant women should be managed by a multidisciplinary team.[</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"/>
+        <rdfs:comment>Acute Confirmed without Pneumonia or Comorbidity 1st Option
+
+consider home care and isolation
+
+» Consider home care in patients who have mild symptoms only (e.g., low-grade fever, cough, fatigue, rhinorrhoea, sore throat), with no warning signs (e.g., shortness of breath or difficulty breathing, haemoptysis, increased sputum production, gastrointestinal symptoms, mental status changes), and no underlying health conditions.[78] Otherwise, hospital
+admission is required.
+
+» Infection prevention and control procedures are still important during home care. Recommend patients use a single room and a single bathroom (if possible), minimise contact
+with other household members, and wear a surgical mask if contact is necessary.[
+
+» At this time, there is no evidence that pets can spread COVID-19. However, patients in home isolation should be advised to limit their interaction, and avoid direct contact with pets
+and other animals, especially while they are symptomatic.
+
+» More detailed guidance on home care is available from the WHO and the CDC:
+
+» [WHO: home care for patients with suspected novel coronavirus (COVID-19) infection presenting with mild symptoms, and management of their contacts]
+
+» [CDC: interim guidance for implementing home care of people not requiring hospitalization for coronavirus disease 2019 (COVID-19)]
+
+» The location of home care may depend on guidance from local health authorities as forced quarantine orders are being used in some countries.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"/>
+        <rdfs:comment>Acute Confirmed without Pneumonia or Comorbidity Plus Option
+
+supportive care plus monitoring
+
+Treatment recommended for ALL patients in selected patient group
+
+» Recommend symptomatic therapies such as an antipyretic/analgesic, and advise patients to keep hydrated but not to take too much fluid as this can worsen oxygenation.
+
+» Monitor patients closely and advise them to seek medical care if symptoms worsen as mild illness can rapidly progress to lower respiratory tract disease.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+        <rdfs:comment>Aetiology
+
+Severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) is a previously unknown betacoronavirus that was discovered in bronchoalveolar lavage samples taken from clusters of patients who presented with pneumonia of unknown cause in Wuhan City, Hubei Province, China, in December 2019.
+
+SARS-CoV-2 belongs to the Sarbecovirus subgenus of the Coronaviridae family, and is the seventh
+coronavirus known to infect humans. The virus has been found to be similar to severe acute respiratory syndrome (SARS)-like coronaviruses from bats, but it is distinct from SARS-CoV and Middle East respiratory syndrome (MERS)-CoV. The full genome has been determined and published in GenBank.
+
+[GenBank] A preliminary study suggests that there are two major types (or strains) of the SARS-CoV-2 virus in China, designated L and S. The L type was found to be more prevalent during the early stages of the outbreak in Wuhan City and may be more aggressive (although this is speculative), but its frequency decreased after early January. The relevance of this finding is unknown at this stage and further research is required.
+
+Coronaviruses are a large family of enveloped RNA viruses, some of which cause illness in people (e.g., common cold, SARS, MERS), and others that circulate among mammals (e.g., bats, camels) and birds.
+
+Rarely, animal coronaviruses can spread to humans and subsequently spread between people, as was the case with SARS and MERS.
+
+A majority of patients in the initial stages of this outbreak reported a link to the Huanan South China Seafood Market, a live animal or ‘wet’ market, suggesting a zoonotic origin of the virus. 
+
+While the potential animal reservoir and intermediary host(s) are unknown at this point, studies suggest they may derive from a recombinant virus between the bat coronavirus and an origin-unknown coronavirus; however, this is yet to be confirmed.
+
+Transmission dynamics of the virus are currently unknown and the situation is evolving. Person-to-person spread has been confirmed in community and healthcare settings in China and other countries.
+
+An initial assessment of the transmission dynamics in the first 425 confirmed cases found that 55% of cases before 1 January 2020 were linked to the Huanan South China Seafood Market, whereas only 8.6% of cases after this date were linked to the market. This confirms that person-to-person spread occurred among close contacts since the middle of December 2019, including infections in healthcare workers. 
+
+One study of a family cluster of five patients in Shenzhen who had a history of travel to Wuhan City (with one other family member who did not travel to Wuhan City) found that person-to-person spread is possible in both hospital and family settings.
+
+Nosocomial transmission in healthcare workers and patients has been reported in 41% of patients in one case series. 
+
+It is uncertain how easily the virus spreads between people, but transmission in chains involving several links is increasingly recognised. Similar to SARS and MERS, it is thought that human transmission occurs via respiratory droplets produced when a person sneezes or coughs. The contribution to transmission by the presence of the virus in other body fluids is unknown; however, the virus has been detected in blood, saliva, tears, and conjunctival secretions, and faecal transmission may also be possible.
+
+An early report of of transmission from an asymptomatic contact in Germany has been criticised.
+
+However, there is mounting evidence that spread from asymptomatic contacts can occur and has been observed in endemic areas.
+
+Anecdotal reports suggest that some people can act as superspreaders early in the course of their infection. These individuals can pass the infection on to large numbers of contacts, including healthcare workers. This phenomenon is well documented for infections such as SARS and Ebola virus infection, and more recently with MERS.
+
+Some of these individuals are also supershedders of virus, but the reasons underlying superspreader events are often more complex than just excess virus shedding and can include a variety of behavioural and environmental factors.
+
+It is unknown whether perinatal transmission or transmission via breastfeeding is possible; however perinatal transmission has been suspected in one case. 
+
+Retrospective reviews of pregnant women with COVID-19 found that there is no evidence for intrauterine infection caused by vertical transmission in women who develop the infection late in pregnancy. 
+
+However, there is currently a lack of data about the risk of transmission to the newborn during vaginal delivery.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BloodandSputumCultureStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BloodandSputumCultureStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Blood and Sputum Culture Step
+
+Collect blood and sputum specimens for culture in all patients to rule out other causes of lower respiratory
+tract infection, especially patients with an atypical epidemiological history.
+Specimens should be collected prior to starting empirical antimicrobials if possible.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CDCCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CDCCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"/>
+        <rdfs:comment>Centers for Disease Control and Prevention: criteria to guide evaluation of patients under investigation (PUI) for COVID-19
+
+Clinicians should use their judgement to determine whether a patient has signs and symptoms compatible with COVID-19 and whether the patient should be tested. Decisions on which patients receive testing should be based on the local epidemiology of COVID-19, as well as the clinical course of illness.
+Most patients with confirmed COVID-19 have developed fever and/or symptoms of acute respiratory illness (e.g., cough, difficulty breathing). Epidemiological factors that may help guide decisions on whether to test include: any persons, including healthcare workers, who have had close contact with a laboratory-confirmed COVID-19 patient within 14 days of symptom onset, or a history of travel from affected geographical areas (international areas with sustained/ongoing transmission) within 14 days of symptom onset. 
+
+[CDC: coronavirus disease 2019 information for travel]
+
+Clinicians are strongly encouraged to test for other causes of respiratory illness, including infections such as
+influenza.
+
+[CDC: criteria to guide evaluation of persons under investigation (PUI) for COVID-19]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+        <rdfs:comment>Case history
+
+Case history #1
+
+A 30-year-old man presents to his general practitioner on 14 January 2020 with a bad cough. He has had the cough for 4 days and now feels a little short of breath. He also has a headache and reports that his muscles ache. On examimation, his pulse is 100 bpm and his temperature is 38.5°C (101.3°F).
+The patient reports that he returned from a business trip in mainland China 6 days ago.
+
+Case history #2
+
+A 61-year-old man presents to hospital on 3 February 2020 with fever, cough, and difficulty breathing. He also reports feeling very tired and unwell. He has a history of congestive heart failure, which is controlled with medication. On examination, his pulse is 120 bpm and his temperature is 38.7°C (101.6°F).
+Chest xray shows bilateral lung infiltrates. He is admitted to hospital in an isolation room and is started on oxygen, intravenous fluids, empirical antibiotics, and paracetamol. Later that day, he tests positive for severe
+acute respiratory syndrome coronavirus 2 (SARS-CoV-2) on real-time reverse transcriptase polymerase chain reaction testing. The patient develops respiratory distress 7 days after admission and is started on mechanical ventilation.
+
+Other presentations
+
+Other non-specific mild symptoms may include anorexia, confusion, dizziness, sore throat, rhinorrhoea, and sputum production. 
+
+Some patients may present with chest pain or haemoptysis. Gastrointestinal symptoms such as diarrhoea, nausea, vomiting, and abdominal pain have been reported in 1% to 10% of patients in case series, although this may be underestimated. One case series reported gastrointestinal symptoms in nearly 40% of patients.Some patients may be minimally symptomatic or
+asymptomatic, especially children.
+
+Approximately 80% of patients present with mild illness, 14% present with severe illness, and 5% present with critical illness. Patients with severe illness may have signs and symptoms of viral pneumonia, or complications including acute distress syndrome, acute cardiac injury, arrhythmias, acute kidney injury, secundary infection, sepsis, or shock.
+
+Atypical presentations may occur as the full spectrum of clinical illness is yet to be characterised.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Clinical presentation Step
+
+The clinical presentation resembles viral pneumonia, and the severity of illness ranges from mild to
+severe. Approximately 80% of patients present with mild illness, 14% present with severe illness, and 5%
+present with critical illness. Early reports suggest that illness severity is associated with older age and the
+presence of underlying health conditions.
+Some patients may be minimally symptomatic or asymptomatic. Large-scale screening in non-endemic
+areas may pick up more of these types of patients. A milder clinical course has been reported in cases
+identified outside of China, with most patients being healthy adults.
+Based on an early analysis of case series, the most common symptoms are:
+• Fever
+• Cough
+• Dyspnoea
+• Myalgia
+• Fatigue.
+Less common symptoms include:
+• Anorexia
+• Sputum production
+• Sore throat
+• Confusion
+• Dizziness
+• Headache
+• Rhinorrhoea
+• Chest pain
+• Haemoptysis
+• Diarrhoea
+• Nausea/vomiting
+• Abdominal pain
+• Conjunctival congestion
+
+Approximately 90% of patients present with more than one symptom, and 15% of patients present with
+fever, cough, and dyspnoea. It appears that fewer patients have prominent upper respiratory tract or
+gastrointestinal symptoms compared with SARS, MERS, or influenza. Patients may present with
+nausea or diarrhoea 1 to 2 days prior to onset of fever and breathing difficulties. Most children present
+with mild symptoms, without fever or pneumonia. However, they may have signs of pneumonia on chest
+imaging despite having minimal or no symptoms. Retrospective reviews of pregnant women
+with COVID-19 found that the clinical characteristics in pregnant women were similar to those reported
+for non-pregnant adults.[35] [36] A retrospective case series of 62 patients in Zhejiang province found
+that the clinical features were less severe than those of the primary infected patients from Wuhan City,
+indicating that second-generation infection may result in milder infection. This phenomenon was also
+reported with MERS.
+Perform a physical examination. Patients may be febrile (with or without chills/rigors) and have obvious
+cough and/or difficulty breathing. Auscultation of the chest may reveal inspiratory crackles, rales, and/or
+bronchial breathing in patients with pneumonia or respiratory distress. Patients with respiratory distress
+may have tachycardia, tachypnoea, or cyanosis accompanying hypoxia.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CorticosteroidsTreatmentStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CorticosteroidsTreatmentStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Corticosteroids Treatment Step
+
+Corticosteroids are being used in some patients with COVID-19; however, they have been found to be ineffective.The WHO (as well as other international pneumonia guidelines) do not routinely recommend systemic corticosteroids for the treatment of viral pneumonia or acute respiratory distress syndrome unless they are indicated for another reason.[</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+        <rdfs:comment>Definition
+
+Coronavirus disease 2019 (COVID-19) is a potentially severe acute respiratory infection caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). 
+
+The virus was identified as the cause of an outbreak of pneumonia of unknown cause in Wuhan City, Hubei Province, China, in December 2019.
+
+The clinical presentation is that of a respiratory infection with a symptom severity ranging from a mild common cold-like illness, to a severe viral pneumonia leading to acute respiratory distress syndrome that is potentially fatal.
+
+The International Committee on Taxonomy of Viruses has confirmed SARS-CoV-2 as the name of the virus owing to the virus&apos;s genetic similarity to the SARS-CoV virus, but taking into account that there may be differences in disease spectrum and transmission. 
+
+The World Health Organization has confirmed COVID-19 (a shortened version of coronavirus disease 2019) as the name of the disease that SARS-CoV-2 infection causes. Prior to this, the virus and/or disease was known by various names including novel coronavirus (2019-nCoV), 2019-nCoV, or variations on this.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <rdfs:comment></rdfs:comment>
+        <rdfs:comment>General prevention measures
+
+• The only way to prevent infection is to avoid exposure to the virus and people should be advised to:
+- Wash hands often with soap and water or an alcohol-based hand sanitiser and avoid touching the eyes, nose, and mouth with unwashed hands
+- Avoid close contact with people (i.e., maintain a distance of at least 1 metre [3 feet]), particularly those who have a fever or are coughing or sneezing
+- Practice respiratory hygiene (i.e., cover mouth and nose when coughing or sneezing, discard tissue immediately in a closed bin, and wash hands)
+- Seek medical care early if they have a fever, cough, and difficulty breathing, and share their previous travel and contact history with their healthcare provider 
+- Avoid direct unprotected contact with live animals and surfaces in contact with live animals when visiting live markets in affected areas
+- Avoid the consumption of raw or undercooked animal products, and handle raw meat, milk, or
+animal organs with care as per usual good food safety practices.
+
+• [WHO: coronavirus disease (COVID-19) advice for the public]
+
+Medical masks
+
+• The World Health Organization (WHO) does not recommend that people wear a medical mask in community settings if they do not have respiratory symptoms as there is no evidence available on its usefulness to protect people who are not ill. However, masks may be worn in some countries
+according to local cultural habits. Individuals with fever and/or respiratory symptoms are advised to wear a mask, particularly in endemic areas.
+
+• It is mandatory to wear a medical mask in public in certain areas of China, and local guidance should be consulted for more information.
+
+• It is important to wash your hands with soap and water (or an alcohol-based sanitiser) prior to putting on a face mask.
+
+• [BMJ: facemasks for the prevention of infection in healthcare and community settings]
+
+Screening and quarantine
+
+• People travelling from areas with a high risk of infection may be screened using questionnaires about their travel, contact with ill persons, symptoms of infection, and/or measurement of their temperature. Combined screening of airline passengers on exit from an affected area and on arrival elsewhere has been relatively ineffective when used for other infections such as Ebola virus infection, and has been modelled to miss up to 50% of cases of COVID-19, particularly those with no symptoms during an incubation period, which may exceed 10 days. Symptom-based screening processes have been reported to be ineffective in detecting SARS-CoV-2 infection in a small number of patients who were later found to have evidence of SARS-CoV-2 in a throat swab.
+
+• Enforced quarantine has been used in some countries to isolate easily identifiable cohorts of people at potential risk of recent exposure (e.g., groups evacuated by aeroplane from affected areas, or groups on cruise ships with infected people on board). The psychosocial effects of enforced quarantine may have long-lasting repercussions.
+
+Vaccine
+
+• There is currently no vaccine available. Vaccines are in development, but it may take up to 12 months
+before a vaccine is available.[56] An mRNA vaccine (mRNA-1273) has been shipped to the National
+Institute of Allergy and Infectious Diseases for phase 1 clinical trials in the US, with an estimated start
+date of 19 March 2020.[57]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+        <rdfs:comment>Diagnostic Approach Step by Step
+
+Early recognition and rapid diagnosis are essential to prevent transmission and provide supportive care in a timely manner. Have a high index of clinical suspicion for COVID-19 in all patients who present with fever and/or respiratory symptoms and who report a travel history to an affected area or close contact with a suspected or confirmed case in the 14 days prior to symptom onset. Evaluation should be performed according to pneumonia severity indexes and sepsis guidelines (if sepsis is suspected) in all patients with severe illness.
+
+There is limited information available to characterise the spectrum of clinical illness. Much of the information in this section is based on early evidence, analysis of case series and reports, and data from previous betacoronavirus infections such as severe acute respiratory syndrome (SARS) and Middle East respiratory syndrome (MERS). You should consult local guidance for further detailed information as the situation is evolving rapidly.
+
+
+
+
+-Clinical presentation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+        <rdfs:comment>Diagnostic Guideline
+
+-Europe
+COVID-19: guidance for health professionals
+Published by: Public Health England Last published: 2020
+COVID-19
+Published by: European Centre for Disease Prevention and Control Last published: 2020
+
+-International
+Coronavirus disease (COVID-19) technical guidance
+Published by: World Health Organization Last published: 2020
+Laboratory testing for coronavirus disease 2019 (COVID-19) in suspected
+human cases 
+Published by: World Health Organization Last published: 2020
+Global surveillance for COVID-19 disease caused by human infection with
+novel coronavirus (COVID-19)
+Published by: World Health Organization Last published: 2020
+Infection prevention and control during health care when novel coronavirus
+(nCoV) infection is suspected
+Published by: World Health Organization Last published: 2020
+
+-North America
+Information for laboratories
+Published by: Centers for Disease Control and Prevention Last published: 2020
+Interim infection prevention and control recommendations for patients
+with confirmed coronavirus disease 2019 (COVID-19) or persons under
+investigation for COVID-19 in healthcare settings
+Published by: Centers for Disease Control and Prevention Last published: 2020
+Interim US guidance for risk assessment and public health management
+of persons with potential coronavirus disease 2019 (COVID-19) exposures:
+geographic risk and contacts of laboratory-confirmed cases
+Published by: Centers for Disease Control and Prevention Last published: 2020
+
+-Asia
+A rapid advice guideline for the diagnosis and treatment of 2019 novel
+coronavirus (2019-nCoV) infected pneumonia
+Published by: Zhongnan Hospital of Wuhan University Novel
+Coronavirus Management and Research Team; Evidence-Based
+Medicine Chapter of China International Exchange and Promotive
+Association for Medical and Health Care</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_EmergingTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_EmergingTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:comment>Emerging test
+
+-serology Test
+• Serological testing is not available as yet, but assays are in development.[65] Serum samples can be stored to retrospectively define cases when validated serology tests become available.
+-serology Result
+positive for SARS-CoV-2 virus antibodies</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+        <rdfs:comment>Epidemiology
+
+The World Health Organization (WHO) was informed of 44 cases of pneumonia of unknown microbial aetiology associated with Wuhan City, Hubei Province, China on 31 December 2019. 
+
+Most of the patients in the outbreak reported a link to a large seafood and live animal market (Huanan South China Seafood Market). The WHO announced that a novel coronavirus had been detected in samples taken from these patients. 
+
+Laboratory tests ruled out severe acute respiratory syndrome coronavirus (SARS-CoV), Middle East respiratory syndrome (MERS)-CoV, influenza, avian influenza, and other common respiratory pathogens.
+
+Since then, the outbreak has escalated rapidly, with the WHO first declaring a public health emergency of international concern on 30 January 2020 and then formally declaring it a pandemic on 11 March 2020. The outbreak spread rapidly from a single city in China to the entire country in only 30 days.[13] The numbers of cases and deaths have surpassed the toll from the 2002-2003 outbreak of severe acute respiratory syndrome (SARS).
+
+Globally, 118,326 cases have been reported as of 11 March 2020.
+
+[WHO: novel coronavirus (COVID-19) situation dashboard]
+
+Cases in China
+
+• 80,955 cases and 3162 deaths have been reported in China (as of 11 March 2020). 
+
+The majority of cases are in Hubei Province. The number of cases reported each day in China has decreased dramatically.
+
+Cases outside of China
+
+• 37,371 cases and 1130 deaths have been reported in 113 countries / territories / areas outside of China (as of 11 March 2020). Local transmission has been reported in many countries. Italy, Iran, and South Korea have the most number of cases outside of China.
+
+These case counts are correct at the time of publication; however, they are increasing daily, and you should consult the case count resources below for updated information if necessary:
+
+• [WHO: coronavirus disease (COVID-2019) situation reports]
+• [CDC: coronavirus disease 2019 (COVID-19) in the US]
+• [CDC: locations with confirmed COVID-19 cases, by WHO region]
+• [National Health Committee of the People’s Republic of China: outbreak report]
+
+The Chinese Center for Disease Control and Prevention recently published data from the largest case series to date (72,314 cases from 31 December 2019 to 11 February 2020). The majority of confirmed cases (87%) were aged 30 to 79 years, 1% were aged 9 years or younger, 1% were aged 10 to 19 years, and 3% were aged 80 years or older. Approximately 51% of patients were male and 49% were female. 
+
+Nearly 4% of cases were in health care workers.
+
+Infection in children is being reported much less commonly than among adults, and all cases so far have been in family clusters or in children who have a history of close contact with an infected patient.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ExperimentalTherapiesStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ExperimentalTherapiesStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Experimental Therapies Step
+Drug therapies (e.g., antivirals) are being used in patients with COVID-19; however, unlicensed or experimental treatments should only be administered in the context of ethically-approved clinical trials.
+See the Emerging section for more information about these treatments.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpComplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpComplication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+        <rdfs:comment>Complication
+
+-Acute respiratory distress syndrome (ARDS) Complication
+Reported in 15% to 29% of patients in case series.
+-Acute respiratory distress syndrome (ARDS) Timeframe
+short term
+-Acute respiratory distress syndrome (ARDS) Likelihood
+medium
+
+-Acute cardiac injury Complication
+Reported in 7% to 12% of patients in case series.
+-Acute cardiac injury Timeframe
+short term 
+-Acute cardiac injury Likelihood
+low
+
+-Arrhythmia Complication
+Reported in 16% of patients in case series.
+-Arrhythmia Timeframe
+short term 
+-Arrhythmia Likelihood
+low
+
+-Secondary infection Complication
+Reported in 10% of patients in case series.
+-Secondary infection Timeframe
+short term 
+-Secondary infection Likelihood
+low
+
+-Acute respiratory failure Complication
+Reported in 8% of patients in case series.
+-Acute respiratory failure Timeframe
+short term 
+-Acute respiratory failure Likelihood
+low
+
+-Acute kidney injury Complication
+Reported in 3% to 7% of patients in case series.
+-Acute kidney injury Timeframe
+short term 
+-Acute kidney injury Likelihood
+low
+
+-Septic shock Complication
+Reported in 4% to 8% of patients in case series. A systemic inflammatory response syndrome (SIRS) can sometimes accompany viral sepsis. Among 41 hospitalised patients with COVID-19, there were elevations in inflammatory chemokines and cytokines compared with healthy adults.[5]
+-Septic shock Timeframe
+short term 
+-Septic shock Timeframe
+low
+
+-disseminated intravascular coagulation Complication
+Reported in 71% of non-survivors.
+-disseminated intravascular coagulation Timeframe
+short term 
+-disseminated intravascular coagulation Likelihood
+low
+
+-pregnancy-related complications Complication
+Retrospective reviews of pregnant women with COVID-19 found that women appeared to have fewer adverse maternal and neonatal complications and outcomes than would be expected for those with severe acute respiratory syndrome (SARS). Adverse effects on the newborn including fetal distress, premature
+labour, respiratory distress, thrombocytopenia, and abnormal liver function have been reported; however, it is unclear whether these effects are related to maternal SARS-CoV-2 infection.
+-pregnancy-related complications Timeframe
+short term 
+-pregnancy-related complications Likelihood
+low</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpPrognosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpPrognosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+        <rdfs:comment>Follow Up Prognosis
+
+The natural course of infection and prognosis are unknown at this time.
+Based on a large case series of patients in China (72,314 reported cases from 31 December 2019 to 11 February 2020), the overall case fatality rate is 2.3% (0.9% in patients without comorbidities). The majority of deaths have been in patients aged 60 years and older and/or those who have pre-existing underlying health conditions (e.g., hypertension, diabetes, cardiovascular disease). The case fatality rate was highest among critical cases (49%). It was also higher in patients aged 80 years and older (15%), males (2.8% versus 1.7% for females), and patients with comorbidities (10.5% for cardiovascular disease, 7.3% for diabetes, 6.3% for chronic respiratory disease, 6% for hypertension, and 5.6% for cancer).
+
+This is less than the overall case fatality rate reported for severe acute respiratory syndrome coronavirus (SARS) (10%) and Middle East respiratory syndrome (MERS) (37%).[5] Despite the lower case fatality rate, COVID-19 has so far resulted in more deaths than both SARS and MERS combined.
+
+The estimated case fatality rate should be treated with caution as the situation is evolving rapidly, and case fatality rates are often overestimated at the onset of outbreaks owing to increased case detection of patients with severe disease.
+
+In one retrospective study of 52 critically ill patients in Wuhan City, 61.5% of patients died by 28 days, and the median time from admission to the intensive care unit to death was 7 days for patients who didn’t
+survive. Non-survivors were more likely to develop acute respiratory distress syndrome and require mechanical ventilation. Non-survivors were older (&gt;65 years of age) and more likely to have chronic medical
+illnesses.[
+Factors associated with disease progression and a poorer prognosis in one retrospective analysis of 78 patients in Wuhan City include older age, history of smoking, maximum body temperature on admission, respiratory failure, significantly decreased serum albumin level, and significantly elevated C-reactive protein.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+        <rdfs:comment>Folow Up Recommendation
+
+Monitoring
+Monitor vital signs (i.e., temperature, respiratory rate, heart rate, blood pressure, oxygen saturation) as well as renal function, liver function, and coagulation profile regularly.
+Monitor vital signs three to four times daily and fetal heart rate in pregnant women with confirmed infection who are symptomatic and admitted to hospital. Perform fetal growth ultrasounds and Doppler assessments to monitor for potential intrauterine growth restriction in pregnant women with confirmed infection who are asymptomatic.
+
+Patient instructions
+General prevention measures
+• Wash hands often with soap and water or an alcohol-based hand sanitiser and avoid touching the eyes, nose, and mouth with unwashed hands.
+• Avoid close contact with people (i.e., maintain a distance of at least 1 metre [3 feet]), particularly those who are sick.
+• Stay at home if sick and isolate yourself from other people.
+• Practice respiratory hygiene (i.e., cover mouth and nose when coughing or sneezing, discard tissue immediately in a closed bin, and wash hands).
+• Regularly clean and disinfect frequently touched objects and surfaces.
+• [WHO: coronavirus disease (COVID-19) advice for the public]
+
+Travel advice
+• Consult local guidance for specific travel restriction recommendations in your country.
+• The World Health Organization (WHO) continues to advise against any travel or trade restrictions to countries experiencing outbreaks (as of 27 February 2020). However, they do recommend that international travellers who are sick should delay or avoid travel to affected areas, especially older
+people or people with underlying health conditions or chronic diseases. Usual precautions (e.g., frequent hand hygiene, cough etiquette, keeping a distance of at least 1 metre [3 feet] from people showing symptoms, food hygiene practices) are important for all travellers. 
+[WHO: coronavirus disease (COVID-19) travel advice]
+• In the US, the Centers for Disease Control and Prevention (CDC) recommends avoiding all nonessential travel to China (this does not include Hong Kong, Macau, or Taiwan), South Korea, Italy, and Iran as these areas have widespread sustained ongoing transmission. They also recommend
+that older adults and those with chronic medical conditions should consider postponing nonessential travel to Japan. Entry of foreign nationals from China and Iran into the US has been suspended. [CDC: coronavirus disease 2019 information for travel] The US Department of State recommends avoiding all travel to China, and that people reconsider travel by cruise ship to, or within, Asia.
+• Some countries are temporarily restricting entry to foreign nationals who have been to affeted areas in the preceding 14 days, or are enforcing 14-day quarantine periods where the person’s health should be closely monitored (e.g., twice-daily temperature readings).
+
+Patient resources
+
+• [WHO: coronavirus disease (COVID-19) outbreak]
+• [CDC: coronavirus disease 2019 (COVID-19)]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_GeneralPreventionMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_GeneralPreventionMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:comment>General prevention measures
+
+• The only way to prevent infection is to avoid exposure to the virus and people should be advised to:
+- Wash hands often with soap and water or an alcohol-based hand sanitiser and avoid touching
+the eyes, nose, and mouth with unwashed hands
+-Avoid close contact with people (i.e., maintain a distance of at least 1 metre [3 feet]), particularly
+those who have a fever or are coughing or sneezing
+-Practice respiratory hygiene (i.e., cover mouth and nose when coughing or sneezing, discard
+tissue immediately in a closed bin, and wash hands)
+-Seek medical care early if they have a fever, cough, and difficulty breathing, and share their
+previous travel and contact history with their healthcare provider
+- Avoid direct unprotected contact with live animals and surfaces in contact with live animals when
+visiting live markets in affected areas
+-Avoid the consumption of raw or undercooked animal products, and handle raw meat, milk, or
+animal organs with care as per usual good food safety practices.
+
+• [WHO: coronavirus disease (COVID-19) advice for the public]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>History Step
+
+.Take a detailed history to ascertain the level of risk for COVID-19 and assess the possibility of other causes. Travel history is key; it is crucial for timely diagnosis and to prevent further transmission. The diagnosis should be suspected in patients with fever and/or signs/symptoms of lower respiratory
+illness (e.g., cough, dyspnoea) who reside in or have travelled to a country/area or territory reporting local transmission of COVID-19 or who report close contact with a confirmed or probable case of COVID-19 in the 14 days prior to symptom onset.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+        <rdfs:comment>Initial Suspected 1st Option
+
+
+infection prevention and control
+procedures
+
+» Immediately isolate all suspected cases in
+an area separate from other patients, and
+implement appropriate infection prevention
+and control procedures. Detailed guidance is
+available from the World Health Organization
+(WHO) and the Centers for Disease Control and
+Prevention (CDC):
+
+» [WHO: infection prevention and control during
+health care when novel coronavirus (nCoV)
+infection is suspected]
+» [CDC: interim infection prevention and control
+recommendations for patients with confirmed
+coronavirus disease 2019 (COVID-19) or
+persons under investigation for COVID-19 in
+healthcare settings]
+
+» COVID-19 is a notifiable disease; report all
+suspected cases to your local health authorities</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_AdjunctOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_AdjunctOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+        <rdfs:comment>Initial Suspected Adjunct Option
+
+empirical antimicrobials
+Treatment recommended for SOME patients in selected patient group
+
+» Consider starting empirical antimicrobials in patients with suspected infection to cover other potential bacterial pathogens that may cause respiratory infection according to local protocols. Give within 1 hour of initial patient assessment for patients with suspected sepsis. Choice of empirical antimicrobials should be based on the clinical diagnosis, and local epidemiology and susceptibility data.
+
+» Consider treatment with a neuraminidase inhibitor until influenza is ruled out.
+
+» De-escalate empiric therapy based on test results and clinical judgement.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+        <rdfs:comment>Initial Suspected Plus Option
+
+supportive care plus monitoring
+
+Treatment recommended for ALL patients in selected patient group » Immediately start supportive care based on the clinical presentation.
+
+» Oxygen: give supplemental oxygen at a rate of 5 L/minute to patients with severe acute respiratory infection and respiratory distress, hypoxaemia, or shock. Titrate flow rates to reach
+a target SpO₂ ≥90%.
+
+» Fluids: manage fluids conservatively in patients with severe acute respiratory infection when there is no evidence of shock as aggressive fluid resuscitation may worsen  oxygenation.
+
+» Symptom relief: give an antipyretic/analgesic for the relief of fever and pain.
+
+» Monitor patients closely for signs of clinical deterioration, such as rapidly progressive respiratory failure and sepsis, and start general supportive care interventions as indicated
+(e.g., haemodialysis, vasopressor therapy, fluid resuscitation, ventilation, antimicrobials) as appropriate.
+
+» Pregnant women should be managed by a multidisciplinary team.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ImageTestingStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ImageTestingStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Image Testing Step
+All imaging procedures should be performed according to local infection prevention and control
+procedures to prevent transmission.
+
+Chest x-ray
+• Order a chest x-ray in all patients with suspected pneumonia. Unilateral lung infiltrates are found in
+25% of patients, and bilateral lung infiltrates are found in 75% of patients.[5] [6] [66]
+
+Computed tomography (CT) chest
+• Consider ordering a CT scan of the chest. Abnormal chest CT findings have been reported in up to
+97% of patients in one meta-analysis of 50,466 hospitalised patients. CT is the primary imaging
+modality in China.[68]
+
+• CT imaging generally shows bilateral multiple lobular and subsegmental areas of ground-glass opacity or consolidation in most patients.[5] [59] [63] Other features include interlobular or septal thickening (smooth or irregular), thickening of the adjacent pleura, and air bronchograms. 
+Some patients may present with pleural effusion, lymphadenopathy, and round cystic changes. None of these findings appear to be specific or diagnostic for COVID-19. Abnormalities can rapidly evolve from focal unilateral to diffuse bilateral ground-glass opacities that progress to, or co-exist with,
+consolidations within 1 to 3 weeks.
+
+• Small nodular ground-glass opacities are the most common finding in children.Consolidation with surrounding halo signs is a typical finding in children.
+
+• Evidence of viral pneumonia on CT may precede a positive RT-PCR result for SARS-CoV-2 in some patients. However, CT imaging abnormalities may be present in asymptomatic patients.[69] Some patients may present with a normal chest finding despite a positive RT-PCR.
+
+• In a cohort of over 1000 patients in a hyperendemic area in China, chest CT had a higher sensitivity for diagnosis of COVID-19 compared with initial RT-PCR from swab samples (88% versus 59%). Improvement of abnormal CT findings also preceded change from RT-PCR positivity to negativity in this cohort during recovery. The sensitivity of chest CT was 97% in patients who ultimately had positive RT-PCR results. However, in this setting, 75% of patients with negative RTPCR results also had positive chest CT findings. Of these patients, 48% were considered highly likely cases, while 33% were considered probable cases.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionDiagnosticandControlStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionDiagnosticandControlStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Infection Prevention Diagnostic and Control Step
+
+Triage all patients on admission and immediately isolate all suspected and confirmed cases in an
+area separate from other patients. Implement appropriate infection prevention and control procedures.
+Screening questionnaires may be helpful. COVID-19 is a notifiable disease; report all suspected and
+confirmed cases to your local health authorities.
+The World Health Organization (WHO) recommends the following basic principles:[58]
+• Immediately isolate all suspected cases in an area that is separate from other patients
+• Implement standard precautions at all times:
+• Practice hand and respiratory hygiene
+• Offer a medical mask to patients who can tolerate one
+• Wear personal protective equipment
+• Prevent needlestick and sharps injury
+• Practice safe waste management, environmental cleaning, and sterilisation of patient care
+equipment and linen
+• Implement additional contact and droplet precautions until the patient is asymptomatic:
+• Place patients in adequately ventilated single rooms; when single rooms are not available,
+place all suspected cases together in the same ward
+• Wear a medical mask, gloves, an appropriate gown, and eye/facial protection (e.g., goggles
+or a face shield)
+• Use single-use or disposable equipment
+• Consider limiting the number of healthcare workers, family members, and visitors in contact
+with the patient, ensuring optimal patient care and psychosocial support for the patient
+• Consider placing patients in negative pressure rooms, if available
+• Implement airborne precautions when performing aerosol-generating procedures
+• All specimens collected for laboratory investigations should be regarded as potentially infectious.
+It is important to disinfect inanimate surfaces in the surgery or hospital as patients may touch and
+contaminate surfaces such as door handles and desktops.[59]
+Detailed guidance on infection prevention and control procedures are available from the WHO and the
+Centers for Disease Control and Prevention (CDC):
+
+• [WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection
+is suspected]
+• [CDC: interim infection prevention and control recommendations for patients with confirmed
+coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare
+settings]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionTreatamentandControlStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionTreatamentandControlStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Infection Prevention Treatment and Control Step
+
+Immediately isolate all suspected or confirmed cases in an area separate from other patients. Implement appropriate infection prevention and control procedures. COVID-19 is a notifiable disease; report all suspected and confirmed cases to your local health authorities. Detailed guidance on infection prevention and control procedures are available from the World Health
+Organization (WHO) and the US Centers for Disease Control and Prevention (CDC):
+
+• [WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected]
+
+• [CDC: interim infection prevention and control recommendations for patients with confirmed coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare settings]</rdfs:comment>
+        <rdfs:comment>Infection Prevention and Control Step
+
+ .Triage all patients on admission and immediately isolate all suspected and confirmed cases in an area separate from other patients. Implement appropriate infection prevention and control procedures. Screening questionnaires may be helpful. COVID-19 is a notifiable disease; report all suspected and confirmed cases to your local health authorities.
+
+.The World Health Organization (WHO) recommends the following basic principles:
+
+• Immediately isolate all suspected cases in an area that is separate from other patients
+• Implement standard precautions at all times:
+-- Practice hand and respiratory hygiene
+-- Offer a medical mask to patients who can tolerate one
+-- Wear personal protective equipment
+-- Prevent needlestick and sharps injury
+-- Practice safe waste management, environmental cleaning, and sterilisation of patient care equipment and linen
+• Implement additional contact and droplet precautions until the patient is asymptomatic:
+• All specimens collected for laboratory investigations should be regarded as potentially infectious.
+.It is important to disinfect inanimate surfaces in the surgery or hospital as patients may touch and contaminate surfaces such as door handles and desktops.
+Detailed guidance on infection prevention and control procedures are available from the WHO and the Centers for Disease Control and Prevention (CDC):
+-- [WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection is suspected]
+-- [CDC: interim infection prevention and control recommendations for patients with confirmed coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare settings]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialInvestigationStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialInvestigationStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Initial investigations Step
+
+Order the following investigations in all patients with severe illness:
+• Pulse oximetry
+• ABG (as indicated to detect hypercarbia or acidosis)
+• FBC
+• Comprehensive metabolic panel
+• Coagulation screen
+• Inflammatory markers (serum procalcitonin and C-reactive protein)
+• Serum troponin
+• Serum lactate dehydrogenase
+• Serum creatine kinase.
+The most common laboratory abnormalities in patients hospitalised with pneumonia include leukopenia,
+lymphopenia, leukocytosis, and elevated liver transaminases. Other abnormalities include neutrophilia,
+thrombocytopenia, decreased haemoglobin, decreased albumin, and renal impairment.[5] [6] [7]
+Pulse oximetry may reveal low oxygen saturation (SpO₂ &lt;90%).
+
+[VIDEO: Radial artery puncture animated demonstration ]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_KeyDiagnosticFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_KeyDiagnosticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactor"/>
+        <rdfs:comment>Key Diagnostic Factor
+
+-fever (common)
+• Reported in 83% to 98% of patients in case series.[5] [6] [7] [67] In one case series, 44% of patients
+had a fever on presentation, but it developed in 89% of patients after hospitalisation.[8]
+• Children may not present with fever.[10]
+• Patients may present with chills/rigors.
+• The course of fever is not fully understood yet.
+
+-cough (common)
+• Reported in 59% to 82% of patients in case series.[5] [6] [7] [8] [67]
+• Cough is usually dry.
+dyspnoea (common)
+• Reported in 18% to 55% of patients in case series.[5] [6] [7] [8]
+• Median time from onset of symptoms to development of dyspnoea is 5 to 8 days.[5] [6] [7]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithPneumoniaorComorbidityStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithPneumoniaorComorbidityStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Management of Patient with Pneomonia or Comorbuty Step
+
+Promptly admit patients with pneumonia or respiratory distress to an appropriate healthcare facility and start supportive care depending on the clinical presentation. The median time from onset of symptoms to hospital admission is reported to be approximately 7 days.[5] [7] Patients with impending or established respiratory failure should be admitted to an intensive care unit. Between 23% to 32% of hospitalised patients require intensive care for respiratory support.[5] [6] [7] However, this estimate may be lower based on current case counts. Symptomatic patients who no longer require hospitalisation may be considered for home care if suitable (see below).
+-Supportive therapies
+• Oxygen: give supplemental oxygen at a rate of 5 L/minute to patients with severe acute respiratory infection and respiratory distress, hypoxaemia, or shock. Titrate flow rates to reach a target SpO₂ ≥90%.[80]
+• Fluids: manage fluids conservatively in patients with severe acute respiratory infection when there is no evidence of shock as aggressive fluid resuscitation may worsen oxygenation.
+• Symptom relief: give an antipyretic/analgesic for the relief of fever and pain.
+• Antimicrobials: consider starting empirical antimicrobials in patients with suspected infection to cover other potential bacterial pathogens that may cause respiratory infection according to local protocols. Give within 1 hour of initial patient assessment for patients with suspected sepsis. Choice of empirical antimicrobials should be based on the clinical diagnosis, and ocal epidemiology and susceptibility data. Consider treatment with a neuraminidase inhibitor until influenza is ruled out. De-escalate empirical therapy based on test results and clinical judgement.[80] Some patients with severe illness may require continued antimicrobial therapy once COVID-19 has been confirmed depending on the clinical circumstances.
+-Monitoring
+• Monitor patients closely for signs of clinical deterioration, such as rapidly progressive respiratory failure and sepsis, and start general supportive care interventions as indicated (e.g., haemodialysis, vasopressor therapy, fluid resuscitation, ventilation, antimicrobials) as appropriate.
+• It is important to follow local infection prevention and control procedures to prevent transmission to healthcare workers. Endotracheal intubation should be performed by an experienced provider using airborne precautions.
+• Intubation and mechanical ventilation are recommended in patients who are deteriorating and cannot maintain an SpO₂ ≥90% with oxygen therapy.[80] Some patients may develop severe hypoxic respiratory failure, requiring a high fraction of inspired oxygen, and high air flow rates to
+match inspiratory flow demand. Patients may also have increased work of breathing, demanding positive pressure breathing assistance.
+• High-flow nasal oxygen and non-invasive ventilation are recommended in select patients. Mechanically ventilated patients with acute respiratory distress syndrome should receive a lungprotective, low tidal volume/low inspiratory pressure ventilation strategy. Those with persistent severe hypoxic failure should be considered for prone ventilation.
+• The risk of treatment failure is high in patients with non-acutely reversible conditions, and there is also concern about nosocomial transmission with open ventilation systems and suboptimal noninvasive face mask or nasal pillow seals. More research to define the balance of benefits and risks to patients and health workers is needed.
+• Some patients may require extracorporeal membrane oxygenation (ECMO) according to availability and expertise.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Although treatment in a hospital setting is preferred, sometimes inpatient care may not be available or may be considered unsafe, or the patient refuses to be hospitalised. Home care may be considered on a case-by-case basis.[78] The location of home care may depend on guidance from local health authorities
+as forced quarantine orders are being used in some countries.
+Patients suitable for home care 
+• Mild symptoms only (e.g., low-grade fever, cough, fatigue, rhinorrhoea, sore throat).
+• No warning signs (e.g., shortness of breath or difficulty breathing, haemoptysis, increased sputum production, gastrointestinal symptoms, mental status changes).
+• No underlying health conditions. Home infection prevention and control measures
+• Infection prevention and control procedures are still important during home care. Recommend patients use a single room and a single bathroom (if possible), minimise contact with other household members, and wear a surgical mask if contact is necessary.
+• At this time, there is no evidence that pets and other animals can spread COVID-19. However, patients in home isolation should be advised to limit their interaction, and avoid direct contact with their pets and other animals, especially while they are symptomatic.
+Supportive therapies
+• Recommend symptomatic therapies such as an antipyretic/analgesic, and advise patients to keep hydrated but not to take too much fluid as this can worsen oxygenation.
+Monitoring
+• Monitor patients closely and advise them to seek medical care if symptoms worsen as mild illness can rapidly progress to lower respiratory tract disease.
+
+More detailed guidance on home care is available from the WHO and the CDC:
+
+• [WHO: home care for patients with suspected novel coronavirus (COVID-19) infection presenting with mild symptoms, and management of their contacts]
+• [CDC: interim guidance for implementing home care of people not requiring hospitalization for coronavirus disease 2019 (COVID-19)]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MolecularTestingStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MolecularTestingStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+        <rdfs:comment>Molecular Testing Step
+
+Molecular testing is required to confirm the diagnosis. Diagnostic tests should be performed according
+to guidance issued by local health authorities and should adhere to appropriate biosafety practices. If
+testing is not available nationally, specimens should be shipped to an appropriate reference laboratory.
+Specimens for testing should be collected under appropriate infection prevention and control procedures.
+Perform a nucleic acid amplification test, such as real-time reverse-transcription polymerase chain
+reaction (RT-PCR), for severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) in all patients with suspected infection, with confirmation by nucleic acid sequencing when necessary.
+
+• Collect upper respiratory specimens (nasopharyngeal and oropharyngeal swab or wash) in
+ambulatory patients and/or lower respiratory specimens (sputum and/or endotracheal aspirate or
+bronchoalveolar lavage) in patients with more severe respiratory disease. Also consider collecting
+additional clinical specimens (e.g., blood, stool, urine).
+One or more negative results do not rule out the possibility of infection. If a negative result is obtained
+from a patient with a high index of suspicion for COVID-19, additional specimens should be collected and tested, especially if only upper respiratory tract specimens were collected initially.
+Also rule out infection with other respiratory pathogens (e.g., influenza, atypical pathogens) according to
+local guidance. Collect nasopharyngeal swabs for testing. It is important to note that co-infections can
+occur.
+Serological testing is not available as yet, but assays are in development. Serum samples can be
+stored to retrospectively define cases when validated serology tests become available.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OnlineResources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OnlineResources">
+        <rdfs:comment>Online resources
+
+1. WHO: novel coronavirus (COVID-19) situation dashboard (external link)
+2. WHO: coronavirus disease (COVID-2019) situation reports (external link)
+3. CDC: coronavirus disease 2019 (COVID-19) in the US (external link)
+4. CDC: locations with confirmed COVID-19 cases, by WHO region (external link)
+5. National Health Committee of the People’s Republic of China: outbreak report (external link)
+6. GenBank (external link)
+7. WHO: coronavirus disease (COVID-19) advice for the public (external link)
+8. BMJ: facemasks for the prevention of infection in healthcare and community settings (external link)
+9. WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection is
+suspected (external link)
+10. CDC: interim infection prevention and control recommendations for patients with confirmed
+coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare
+settings (external link)
+11. WHO: global surveillance for COVID-19 disease caused by human infection with novel coronavirus
+(COVID-19) (external link)
+12. CDC: coronavirus disease 2019 information for travel (external link)
+13. CDC: criteria to guide evaluation of persons under investigation (PUI) for COVID-19 (external link)
+14. WHO: home care for patients with suspected novel coronavirus (COVID-19) infection presenting with
+mild symptoms, and management of their contacts (external link)
+15. CDC: interim guidance for implementing home care of people not requiring hospitalization for
+coronavirus disease 2019 (COVID-19) (external link)
+16. WHO: coronavirus disease (COVID-19) travel advice (external link)
+17. WHO: coronavirus disease (COVID-19) outbreak (external link)
+18. CDC: coronavirus disease 2019 (COVID-19) (external link)</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactor"/>
+        <rdfs:comment>Other Diagnostic Factor
+
+fatigue (common)
+• Reported in 38% to 69% of patients in case series.[5] [7] [8]
+• Patients may also report malaise.
+myalgia (common)
+• Reported in 11% to 44% of patients in case series.[5] [6] [7] [8] [67]
+anorexia (common)
+• Reported in 40% of patients in case series.[7]
+sputum production (common)
+• Reported in 26% to 33% of patients in case series.[5] [7] [8]
+sore throat (common)
+• Reported in 5% to 17% of patients in case series, and usually presents early in the clinical course.[6]
+[7] [8]
+confusion (uncommon)
+• Reported in 9% of patients in case series.[6]
+dizziness (uncommon)
+• Reported in 9% of patients in case series.[7]
+headache (uncommon)
+• Reported in 6% to 14% of patients in case series.[5] [6] [7] [8]
+haemoptysis (uncommon)
+• Reported in 1% to 5% of patients in case series.[5] [8]
+rhinorrhoea (uncommon)
+• Reported in 4% to 5% of patients in case series.[6] [8]
+chest pain (uncommon)
+• Reported in 2% to 5% of patients in case series.[5] [6]
+• May indicate pneumonia.
+gastrointestinal symptoms (uncommon)
+• Nausea, vomiting, and diarrhoea have been reported in 1% to 10% of patients in case series, although
+this may be underestimated.[5] [6] [7] [8] One case series reported gastrointestinal symptoms in nearly
+40% of patients.[9]
+• Abdominal pain has been reported in 2% of patients in case series.[7]
+• Patients may present with nausea or diarrhoea 1 to 2 days prior to onset of fever and breathing
+difficulties.[7]
+conjunctival congestion (uncommon)
+• Reported in &lt;1% of patients in case series.[8]
+bronchial breath sounds (uncommon)
+• May indicate pneumonia.
+tachypnoea (uncommon)
+• May be present in patients with acute respiratory distress.
+tachycardia (uncommon)
+• May be present in patients with acute respiratory distress.
+cyanosis (uncommon)
+• May be present in patients with acute respiratory distress.
+crackles/rales on auscultation (uncommon)
+• May be present in patients with acute respiratory distress.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticTesttoConsider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticTesttoConsider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:comment>Other Diagnostic Test to Consider
+
+-computed tomography (CT) chest Test
+• Consider a CT scan of the chest. Abnormal chest CT findings have been reported in up to 97% of patients in one meta-analysis of 50,466 hospitalised patients. CT is the primary imaging modality in China.
+• CT imaging generally shows bilateral multiple lobular and subsegmental areas of ground-glass opacity or consolidation in most patients. Other features include interlobular or septal thickening (smooth or irregular), thickening of the adjacent pleura, and air bronchograms. Some patients may present with pleural effusion, lymphadenopathy, and round cystic changes. None of these findings appear to be specific or diagnostic for COVID-19. Abnormalities can rapidly evolve from focal unilateral to diffuse bilateral ground-glass opacities that progress to, or co-exist with, consolidations within 1 to 3 weeks.
+• Small nodular ground-glass opacities are the most common finding in children.Consolidation with surrounding halo signs is a typical finding in children.
+• Evidence of viral pneumonia on CT may precede a positive RT-PCR result for SARS-CoV-2 in some patients. However, CT imaging abnormalities may be present in asymptomatic patients.
+• In a cohort of over 1000 patients in a hyperendemic area in China, chest CT had a higher sensitivity for diagnosis of COVID-19 compared with initial RT-PCR from swab samples (88% versus 59%). Improvement of abnormal CT findings also preceded change from RT-PCR positivity to negativity in this cohort during recovery. The sensitivity of chest CT was 97% in patients who ultimately had positive RT-PCR results. However, in this setting, 75% of patients with negative RT-PCR results also had positive chest CT findings. Of
+these patients, 48% were considered highly likely cases, while 33% were considered probable cases.
+-computed tomography (CT) chest Result
+bilateral ground-glass opacity or consolidation</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+        <rdfs:comment>Pathophysiology
+
+Current estimates of the incubation period range from 1 to 14 days, according to the World Health Organization and the US Centers for Disease Control and Prevention. 
+
+The median incubation period has been estimated to be 5 days. Transmission may be possible during the incubation period.
+
+Preliminary reports suggest that the reproductive number (R₀), the number of people who acquire the infection from an infected person, is approximately 2.2.
+
+However, as the situation is still evolving, the R₀ may actually be higher or lower. The secondary attack rate for SARS-CoV-2 is estimated to be 0.45% for close contacts of US patients.
+
+While the pathophysiology of this condition is currently unknown, it is thought that the virus binds to the angiotensin-converting enzyme-2 (ACE2) receptor in humans, which suggests that it may have a similar pathogenesis to SARS.
+
+However, a unique structural feature of the spike glycoprotein receptor binding domain of SARS-CoV-2 (which is responsible for the entry of the virus into host cells) confers potentially higher binding affinity for ACE2 on host cells compared to SARS-CoV. A furin-like cleavage site has been identified in the spike protein of the virus; this does not exist in other SARS-like coronaviruses.
+
+High viral loads have been detected in nasal and throat swabs soon after symptom onset, and it is thought that the viral shedding pattern may be similar to that of patients with influenza. An asymptomatic patient was found to have a similar viral load compared with symptomatic patients.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Quarantine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Quarantine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:comment>Quarantine
+
+• Enforced quarantine has been used in some countries to isolate easily identifiable cohorts of people at
+potential risk of recent exposure (e.g., groups evacuated by aeroplane from affected areas, or groups
+on cruise ships with infected people on board). The psychosocial effects of enforced quarantine may
+have long-lasting repercussions.
+
+•Management of contacts
+People who may have been exposed to individuals with suspected COVID-19 (including healthcare workers)
+should be advised to monitor their health for 14 days from the last day of possible contact, and seek
+immediate medical attention if they develop any symptoms, particularly fever, respiratory symptoms such as
+coughing or shortness of breath, or diarrhoea.
+Some people may be put into voluntary or compulsory
+quarantine depending on the guidance from local health authorities.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RiskFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RiskFactor">
+        <rdfs:comment>Strong Risk factor
+
+-residence in/travel to affected area 14 days prior to symptom onset
+• Diagnosis should be suspected in patients with fever and/or signs/symptoms of lower respiratory illness (e.g., cough, dyspnoea) who reside in, or have travelled to a country/area or territory reporting local transmission of COVID-19 in the 14 days prior to symptom onset.
+
+• [WHO: novel coronavirus (COVID-19) situation dashboard]
+
+• [CDC: locations with confirmed 2019-nCoV cases]
+
+-close contact with infected individual
+• Person-to-person spread has been confirmed in community and healthcare settings in China and other
+countries.[16] Diagnosis should be suspected in patients with fever and/or signs/symptoms of lower
+respiratory illness (e.g., cough, dyspnoea) who report close con</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+        <rdfs:comment>Screening 
+• People travelling from areas with a high risk of infection may be screened using questionnaires about
+their travel, contact with ill persons, symptoms of infection, and/or measurement of their temperature.
+Combined screening of airline passengers on exit from an affected area and on arrival elsewhere has
+been relatively ineffective when used for other infections such as Ebola virus infection, and has been
+modelled to miss up to 50% of cases of COVID-19, particularly those with no symptoms during an
+incubation period, which may exceed 10 days.[52] Symptom-based screening processes have been
+reported to be ineffective in detecting SARS-CoV-2 infection in a small number of patients who were
+later found to have evidence of SARS-CoV-2 in a throat swab.
+
+Screening of travellers
+
+Exit and entry screening may be recommended in some countries, particulary when repatriating nationals from affected areas. Travellers returning from affected areas should self-monitor for symptoms for 14 days and follow local protocols of the receiving country. Some countries may require returning travellers to
+enter quarantine. Travellers who develop symptoms are advised to contact their local health care provider, preferably by phone.[79]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+        <rdfs:comment>Early recognition of new cases is the cornerstone of prevention of transmission. Immediately isolate all
+suspected and confirmed cases and implement recommended infection prevention and control procedures according to local protocols, including standard precautions at all times, and contact, droplet, and airborne precautions while the patient is symptomatic.
+
+COVID-19 is a notifiable disease; report all suspected and confirmed cases to your local health authorities.
+Detailed guidance on infection prevention and control measures are available from the World Health Organization and the Centers for Disease Control and Prevention:
+
+• [WHO: infection prevention and control during health care when novel coronavirus (nCoV) infection is
+suspected]
+
+• [CDC: interim infection prevention and control recommendations for patients with confirmed
+coronavirus disease 2019 (COVID-19) or persons under investigation for COVID-19 in healthcare</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SpecialPatientGroupTreatmentStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SpecialPatientGroupTreatmentStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+        <rdfs:comment>Special Patient Group Treatment Step
+
+Pregnant women Treatment Step
+
+• Data on pregnant women are limited; however, they can generally be treated with the same supportive therapies detailed above, taking into account the physiological changes that occur with pregnancy.
+• Pregnant women should be managed by a multidisciplinary team. The choice of delivery timing should be individualised based on gestational age, as well as maternal, fetal, and delivery conditions. A corticosteroid may be needed for fetal lung maturation depending on the maternal status up to 34 to 37 weeks’ gestation.
+• Induction of labour and vaginal delivery is preferred in pregnant women with confirmed COVID-19 infection to avoid unnecessary surgical complications; however, an emergency caesarean delivery may be required in patients with complications such as sepsis, or if there is fetal distress.
+• Newborns should be isolated for at least 14 days or until viral shedding clears, and breastfeeding is not recommended during this time.
+
+Children
+
+• Data on children are limited; however, guidance for the treatment of children has been published.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+        <rdfs:comment>No specific treatments are known to be effective for COVID-19 yet; therefore, the mainstay of management is optimised supportive care to relieve symptoms and to support organ function in more severe illness. Patients should be managed in a hospital setting where possible; however, home care may be suitable for selected patients with mild illness. Much of the information in this section is based on early evidence, analysis of case series and reports, and data from previous betacoronavirus infections such as severe acute respiratory
+syndrome (SARS) and Middle East respiratory syndrome (MERS). You should consult local guidance for further detailed information as the situation is evolving rapidly.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+        <rdfs:comment>Treatment Emerging Option
+
+Antivirals
+Various antivirals are being trialled in patients with COVID-19 (e.g., oseltamivir, lopinavir/ritonavir, ganciclovir, favipiravir, baloxavir marboxil, umifenovir, interferon alfa); however, there are no data to support their use. Results from one small case series found that evidence of clinical benefit with lopinavir/ritonavir was equivocal. Remdesivir shows in vitro activity against severe acute respiratory
+syndrome coronavirus 2 (SARS-CoV-2) and has been used to treat patients in China, as well as the first patient in the US.[89] [90] Clinical trials with remdesivir have started in the US and in China.
+
+Intravenous immunoglobulin
+Intravenous immunoglobulin is being trialled in some patients with COVID-19; however, there are no data to support this.
+ 
+Chloroquine and hydroxychloroquine
+Chloroquine and hydroxychloroquine are being trialled in some patients with COVID-19; however, there are no data to support this.Chloroquine shows in vitro activity against SARS-CoV-2. Chloroquine is likely to be added to the updated version of the Chinese management guidelines. 
+
+Traditional Chinese Medicine
+Traditional Chinese Medicine is being trialled in some patients with COVID-19 (e.g., Xue-Bi-Jing, ShuangHuang-Lian, Xin-Guan-2); however, there are no data to support this.
+
+Stem cell therapy
+Stem cell therapy is being investigated to treat patients with COVID-19 in clinical trials. It is thought that mesenchymal stem cells can reduce the pathological changes that occur in the lungs, and inhibit the cellmediated immune inflammatory response.
+
+Angiotensin-II receptor antagonists
+Angiotensin-II receptor antagonists such as losartan are being investigated as a potential treatment because it is thought that the angiotensin-converting enzyme-2 (ACE2) receptor is the main binding site for the virus.
+
+Convalescent plasma
+Convalescent plasma from patients who have recovered from viral infections has been used as a treatment in previous virus outbreaks including SARS, avian influenza, and Ebola virus infection.[103] A clinical trial to determine the safety and efficacy of convalescent plasma in patients with COVID-19 has started in China; however, there is no data on its use as yet.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+        <rdfs:comment>-Europe
+COVID-19: guidance for health professionals
+Published by: Public Health England Last published: 2020
+Coronavirus (covid-19): latest news and resources
+Published by: BMJ Last published: 2020
+COVID-19
+Published by: European Centre for Disease Prevention and Control Last published: 2020
+
+-International
+Coronavirus disease (COVID-19) technical guidance
+Published by: World Health Organization Last published: 2020
+Clinical management of severe acute respiratory infection when novel
+coronavirus (nCoV) infection is suspected
+Published by: World Health Organization Last published: 2020
+Home care for patients with suspected novel coronavirus (COVID-19)
+infection presenting with mild symptoms, and management of their contacts
+Published by: World Health Organization Last published: 2020
+Advice on the use of masks in the community, during home care and in health
+care settings in the context of the novel coronavirus (2019-nCoV) outbreak
+Published by: World Health Organization Last published: 2020
+
+-North America
+Information for healthcare professionals
+Published by: Centers for Disease Control and Prevention Last published: 2020
+Interim clinical guidance for management of patients with confirmed
+coronavirus disease (COVID-19)
+Published by: Centers for Disease Control and Prevention Last published: 2020
+Interim guidance for implementing home care of people not requiring
+hospitalization for 2019 novel coronavirus (2019-nCoV)
+Published by: Centers for Disease Control and Prevention Last published: 2020
+Coronavirus disease (COVID-19): outbreak update
+Published by: Government of Canada Last published: 2020
+
+-Asia
+New coronavirus pneumonia
+Published by: Chinese Center for Disease Control and Prevention Last published: 2020
+A rapid advice guideline for the diagnosis and treatment of 2019 novel
+coronavirus (2019-nCoV) infected pneumonia
+Published by: Zhongnan Hospital of Wuhan University Novel
+Coronavirus Management and Research Team; Evidence-Based
+Medicine Chapter of China International Exchange and Promotive
+Association for Medical and Health Care
+Last published: 2020
+Updates on COVID-19 (coronavirus disease 2019) local situation
+Published by: Ministry of Health Singapore Last published: 2020
+New Coronavirus (COVID-19)
+Published by: National Institute of Infectious Diseases Japan Last published: 2020
+New coronavirus infection
+Published by: Japanese Association for Infectious Diseases Last published: 2020
+
+-Oceania
+Coronavirus disease 2019 (COVID-19)
+Published by: Department of Health Australia Last published: 2020</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:comment>Vaccine
+• There is currently no vaccine available. Vaccines are in development, but it may take up to 12 months
+before a vaccine is available.[56] An mRNA vaccine (mRNA-1273) has been shipped to the National
+Institute of Allergy and Infectious Diseases for phase 1 clinical trials in the US, with an estimated start
+date of 19 March 2020.</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_WHOCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_WHOCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"/>
+        <rdfs:comment>Suspect case
+
+According to the WHO estimate:
+
+• A. Patients with acute respiratory illness (i.e., fever and at least one sign/symptom of respiratory disease such as cough or shortness of breath) AND with no other aetiology that fully explains the clinical presentation AND a history of travel to or residence in a country/area or territory reporting local transmission of COVID-19 disease during the 14 days prior to symptom onset; OR
+
+• B. Patients with any acute respiratory illness AND having been in contact with a confirmed or probable COVID-19 case in the last 14 days prior to onset of symptoms; OR
+
+• C. Patients with severe acute respiratory infection (i.e., fever and at least one sign/symptom of respiratory disease such as cough or shortness of breath) AND requiring hospitalisation AND with no other aetiology that fully explains the clinical presentation.
+
+Probable case
+
+• A suspect case for whom testing is inconclusive.
+
+Confirmed case
+• A person with laboratory confirmation of infection, irrespective of signs and symptoms.
+
+[WHO: global surveillance for COVID-19 disease caused by human infection with novel coronavirus (COVID-19)]</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis">
+        <rdfs:comment>Differential Diagnosis
+
+- Middle East respiratory syndrome (MERS) Condition
+- Middle East respiratory syndrome (MERS) Differentiating signs and symptoms
+• Lack of travel history to mainland China or other affected areas, or of close
+contact with an infected person in the 14 days prior to symptom onset.
+• Initial reports suggest that the clinical course of COVID-19 is less severe and the case fatality rate is lower compared with MERS (approximately 2% to 3%
+for COVID-19 versus 37% for MERS); however, there are no data to confirm this
+and the situation is rapidly evolving.
+• Gastrointestinal symptoms and upper respiratory tract symptoms appear to be less common in COVID-19 based on early data.
+- Middle East respiratory syndrome (MERS) Differentiating tests
+• Reverse-transcriptase polymerase chain reaction (RT-PCR): positive for MERS-CoV viral RNA.
+
+-Severe acute respiratory syndrome (SARS) Condition
+-Severe acute respiratory syndrome (SARS) Differentiating signs and symptoms
+• There have been no cases of SARS reported since 2004.
+• Lack of travel history to mainland China or other affected areas, or of close
+contact with an infected person in the 14 days prior to symptom onset.
+• Initial reports suggest that the clinical course of COVID-19 is less severe
+and the case fatality rate is lower compared with SARS (approximately 2% to 3% for COVID-19 versus 10% for SARS); however, there are no data to confirm this and the situation is rapidly evolving.
+• Gastrointestinal symptoms and upper respiratory tract symptoms appear to be less common in COVID-19 based on early data.
+-Severe acute respiratory syndrome (SARS)  Differentiating tests
+• RT-PCR: positive for SARSCoV viral RNA.
+
+-Community-acquired pneumonia Condition
+-Community-acquired pneumonia Differentiating signs and symptoms
+• Lack of travel history to mainland China or other affected areas, or of close
+contact with an infected person in the 14 days prior to symptom onset.
+• Differentiating COVID-19 from community-acquired respiratory tract infections is not possible from signs and symptoms.
+-Community-acquired pneumonia Differentiating tests
+• Blood or sputum culture or molecular testing: positive for causative organism.
+
+-Influenza Infection Condition
+-Influenza Infection Differentiating signs and symptoms
+• Lack of travel history to mainland China or other affected areas, or of close
+contact with an infected person in the 14 days prior to symptom onset.
+• Differentiating COVID-19 from community-acquired respiratory tract infections
+is not possible from signs and symptoms. However, early reports suggest that
+sore throat is less common in COVID-19.
+-Influenza Infection Differentiating tests
+• RT-PCR: positive for influenza A or B viral RNA.
+
+-Common Cold Condition
+-Common Cold Differentiating signs and symptom
+• Lack of travel history to mainland China or other affected areas, or of close
+contact with an infected person in the 14 days prior to symptom onset. 
+• Differentiating COVID-19 from community-acquired respiratory tract infections is not possible from signs and symptoms. However, early reports suggest that coryza and sore throat are less common in COVID-19.
+-Common Cold Differentiating tests
+• RT-PCR: positive for causative organism, or negative for SARS-CoV-2 viral RNA.
+
+-Avian Influenza A (H7N9) Virus Infection Condition
+-Avian Influenza A (H7N9) Virus Infection Differentiating signs and symptom
+• May be difficult to differentiate based on epidemiological history as
+avian influenza H7N9 is endemic in China.
+• Close contact with infected birds (e.g., farmer or visitor to a live market in endemic areas), or living in an area when avian influenza is
+endemic.
+• Early reports suggest that sore throat is less coommon in COVID-19.
+-Avian Influenza A (H7N9) Virus Infection Differentiating tests
+RT-PCR: positive for H7-specific viral RNA.
+
+-Avian influenza A (H5N1) Virus Infection Condition
+-Avian influenza A (H5N1) Virus Infection Differentiating signs and symptom
+• Lack of travel history to mainland China or other affected areas, or of close contact with an infected person in the 14 days prior to symptom onset.
+• Close contact with infected birds (e.g., farmer or visitor to a live market in endemic areas), or living in an area when avian influenza is endemic.
+• Early reports suggest that sore throat is less common in COVID-19.
+-Avian influenza A (H5N1) Virus Infection Differentiating tests
+• RT-PCR: positive for H5N1 viral RNA.
+
+-Other Viral or Bacterial Respiratory Infection Condition
+-Other Viral or Bacterial Respiratory Infection Differentiating signs and symptom
+• Lack of travel history to mainland China or other affected areas, or of close contact with an infected person in the 14 days prior to symptom onset.
+• Differentiating COVID-19 from community-acquired respiratory tract infections is not possible from signs and symptoms.
+• Adenovirus and Mycoplasma should be considered in clusters of pneumonia patients, especially in closed settings such as military camps and schools
+-Other Viral or Bacterial Respiratory Infection Differentiating tests
+• Blood or sputum culture of molecular testing: positive for causative organism
+
+-Pulmonary tuberculosis Condition
+-Pulmonary tuberculosis Differentiating signs and symptom
+• Consider diagnosis in endemic areas, especially in patients who are
+immunocompromised.
+• History of symptoms is usually longer.
+• Presence of night sweats and weight loss may help to differentiate
+-Pulmonary tuberculosis Differentiating tests
+• Chest x-ray: fibronodular opacities in upper lobes with or without cavitation; atypical pattern includes opacities in middle or lower lobes,
+or hilar or paratracheal lymphadenopathy, and/or pleural effusion.
+• Sputum acid-fast bacilli smear and sputum culture: positive.
+• Molecular testing: positive for Mycoplasma tuberculosis.</rdfs:comment>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

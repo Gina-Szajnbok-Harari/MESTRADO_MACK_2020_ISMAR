@@ -1,0 +1,2270 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#"
+     xml:base="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:Epidemiologia="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia">
+        <owl:versionIRI rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia/1.0.0"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#string -->
+
+    <rdf:Description rdf:about="http://www.w3.org/2001/XMLSchema#string">
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofDiagnosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofDiagnosis">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofFollowUp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofFollowUp">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofTreatment"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofGuideline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofGuideline">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofFollowUp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPredecessorofTreatment">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofDiagnosis"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofDiagnosis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofDiagnosis">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofFollowUp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofFollowUp">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofPrevention -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofPrevention">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofTreatment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSucessorofTreatment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#has1stDiagnosticTesttoOrder -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#has1stDiagnosticTesttoOrder">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAbdominalPain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAbdominalPain">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAcuteTreatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAcuteTreatment">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAetiology -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAetiology">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAge -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAge">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAngiotensin-IIReceptorAntagonistEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAngiotensin-IIReceptorAntagonistEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAnorexia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAnorexia">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAntiviralEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAntiviralEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaConfirmedCase -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaConfirmedCase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaProbableCase -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaProbableCase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaSuspectedCase -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteriaSuspectedCase">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19EvaluationofPatientUnderInvestigationPUI -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19EvaluationofPatientUnderInvestigationPUI">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19DiagnosticCriteria"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_CorticosteroidsTreatmentStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_CorticosteroidsTreatmentStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ExperimentalTherapiesStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ExperimentalTherapiesStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_InfectionPreventionTreatamentandControlStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_InfectionPreventionTreatamentandControlStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_SpecialPatientGroupTreatmentStep -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_SpecialPatientGroupTreatmentStep">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19TreatmentStep"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCaseHistoryDescription -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCaseHistoryDescription">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChestPain -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChestPain">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChloroquineandHydroxyChloroquineEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasChloroquineandHydroxyChloroquineEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfirmedSARS-CoV2infetion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfirmedSARS-CoV2infetion">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasAcuteTreatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfusion -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConfusion">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConvalescentPasmaEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasConvalescentPasmaEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCough -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCough">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDateofHospitalAdmission -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDateofHospitalAdmission">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDefinition -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDefinition">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiagnosisGuideline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiagnosisGuideline">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiarrhoea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiarrhoea">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiastolicPressure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDiastolicPressure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19 -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDifferentialDiagnosisfromCOVID-19">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDizziness -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDizziness">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDyspnoea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasDyspnoea">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEmergingTest -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEmergingTest">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEpidemiology -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasEpidemiology">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFatigue -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFatigue">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFever"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpComplication -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpComplication">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpPrognosis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpPrognosis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpRecommentation -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUpRecommentation">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFollowUp"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGendre -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGendre">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGeneralPreventioMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGeneralPreventioMeasure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHaemoptysis -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHaemoptysis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHeadache -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHeadache">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHistory -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHistory">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasInitialTreatment -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasInitialTreatment">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasIntravenousImmonoglobulinEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasIntravenousImmonoglobulinEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasManagementofContact -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasManagementofContact">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMedicaMaskPreventionMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMedicaMaskPreventionMeasure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMialgia -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMialgia">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasNauseaVomiting -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasNauseaVomiting">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasOthertesttoConsider -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasOthertesttoConsider">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCovid-19_Test"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPathophysiology -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPathophysiology">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasBasicConcepts"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPulse -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPulse">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasRhinorrhoea -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasRhinorrhoea">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <owl:propertyDisjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningandQuarantinePreventionMeasures -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningandQuarantinePreventionMeasures">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningofTraveller -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningofTraveller">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasScreeningPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSecondaryPrevention">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasShortofBreath -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasShortofBreath">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasMostCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSoreThroat -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSoreThroat">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSputumProduction -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSputumProduction">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasLessCommonSymptoms"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasStemCellTherapyEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasStemCellTherapyEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSuspectedSARS-CoV-2Infection -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSuspectedSARS-CoV-2Infection">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasInitialTreatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSysytolicPressure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasSysytolicPressure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasHospitalCareDataEntry"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#decimal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTraditionalChineseMedicineEmergngOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTraditionalChineseMedicineEmergngOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentEmergingOption">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasCOVID-19_Treatment"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentGuideline -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasTreatmentGuideline">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasGuideline"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasVaccinePreventionMeasure -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasVaccinePreventionMeasure">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasPrimaryPrevention"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasntSymtoms -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasntSymtoms">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_1stDiagnosticTesttoOrder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_1stDiagnosticTesttoOrder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_AdjunctOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_AdjunctOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withPneumoniaorComorbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ACO_withoutPneumoniaorComorbidity"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AcuteConfirmedSARS-CoV-2InfectionOption_ACO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Angotensin-IIReceptorAntagonist -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Angotensin-IIReceptorAntagonist">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AntiviralTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_AntiviralTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BloodandSputumCultureStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BloodandSputumCultureStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CDCCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CDCCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ChloroquineandHidroxyChloroquineTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ChloroquineandHidroxyChloroquineTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ClinicalPresentationStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ConvalescentPlasma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ConvalescentPlasma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CorticosteroidsTreatmentStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CorticosteroidsTreatmentStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis">
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_EmergingTest -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_EmergingTest">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ExperimentalTherapiesStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ExperimentalTherapiesStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpComplication -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpComplication">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpMonitoring -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpMonitoring">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpPrognosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpPrognosis">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUp"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_GeneralPreventionMeasure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_GeneralPreventionMeasure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_1stOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_1stOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_AdjunctOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_AdjunctOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_PlusOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ISO_PlusOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ImageTestingStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ImageTestingStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionDiagnosticandControlStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionDiagnosticandControlStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionTreatamentandControlStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectionPreventionTreatamentandControlStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialInvestigationStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialInvestigationStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InitialSuspectedSARS-CoV-2InfectionOption_ISO">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_IntravenousImmunoglobulinTreatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_IntravenousImmunoglobulinTreatment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_KeyDiagnosticFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_KeyDiagnosticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithPneumoniaorComorbidityStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithPneumoniaorComorbidityStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MedicalMask -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MedicalMask">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MolecularTestingStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_MolecularTestingStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticApproachStepbyStep"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OnlineResources -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OnlineResources"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_HistoryandExaminationFactorDiagnostic"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticTesttoConsider -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_OtherDiagnosticTesttoConsider">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticTest"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_BasicConcepts"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PatientInstruction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PatientInstruction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_FollowUpRecommentation"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Quarantine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Quarantine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RiskFactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RiskFactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Diagnosis"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Screening">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SecondaryPrevention">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Prevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SpecialPatientGroupTreatmentStep -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SpecialPatientGroupTreatmentStep">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StemCellTherapy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StemCellTherapy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_StepbyStepTreatmentApproach">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TraditionalChineseMedicine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TraditionalChineseMedicine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentEmergingOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentGuideline">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Guidelines"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_TreatmentOption">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Treatment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Vaccine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Vaccine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_PrimaryPrevention"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_WHOCriteria -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_WHOCriteria">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_DiagnosticCriteria"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Epidemiology"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Pathophysiology"/>
+        <hasDefinition rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasDefinition>
+        <hasDiagnosisGuideline rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDiagnosisGuideline>
+        <hasEpidemiology rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasEpidemiology>
+        <hasPathophysiology rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasPathophysiology>
+        <hasTreatmentGuideline rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasTreatmentGuideline>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual">
+        <hasAngiotensin-IIReceptorAntagonistEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasAngiotensin-IIReceptorAntagonistEmergingOption>
+        <hasAntiviralEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasAntiviralEmergingOption>
+        <hasCOVID-19_CorticosteroidsTreatmentStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_CorticosteroidsTreatmentStep>
+        <hasCOVID-19_ExperimentalTherapiesStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_ExperimentalTherapiesStep>
+        <hasCOVID-19_InfectionPreventionTreatamentandControlStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_InfectionPreventionTreatamentandControlStep>
+        <hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_ManagementofPatientwithPneumoniaorComorbidityStep>
+        <hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_ManagementofPatientwithoutPneumoniaorComorbidityStep>
+        <hasCOVID-19_SpecialPatientGroupTreatmentStep rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19_SpecialPatientGroupTreatmentStep>
+        <hasChloroquineandHydroxyChloroquineEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasChloroquineandHydroxyChloroquineEmergingOption>
+        <hasConfirmedSARS-CoV2infetion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasConfirmedSARS-CoV2infetion>
+        <hasConvalescentPasmaEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasConvalescentPasmaEmergingOption>
+        <hasFollowUpComplication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasFollowUpComplication>
+        <hasFollowUpPrognosis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasFollowUpPrognosis>
+        <hasIntravenousImmonoglobulinEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasIntravenousImmonoglobulinEmergingOption>
+        <hasSecondaryPrevention rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasSecondaryPrevention>
+        <hasStemCellTherapyEmergingOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasStemCellTherapyEmergingOption>
+        <hasTraditionalChineseMedicineEmergngOption rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasTraditionalChineseMedicineEmergngOption>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual">
+        <hasEmergingTest rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasEmergingTest>
+        <hasFollowUpComplication rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasFollowUpComplication>
+        <hasFollowUpPrognosis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasFollowUpPrognosis>
+        <hasFollowUpRecommentation rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasFollowUpRecommentation>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual">
+        <hasGeneralPreventioMeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasGeneralPreventioMeasure>
+        <hasntSymtoms>Y</hasntSymtoms>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual">
+        <hasGeneralPreventioMeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasGeneralPreventioMeasure>
+        <hasManagementofContact rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasManagementofContact>
+        <hasMedicaMaskPreventionMeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasMedicaMaskPreventionMeasure>
+        <hasScreeningandQuarantinePreventionMeasures rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasScreeningandQuarantinePreventionMeasures>
+        <hasScreeningofTraveller rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasScreeningofTraveller>
+        <hasVaccinePreventionMeasure rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasVaccinePreventionMeasure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual">
+        <has1stDiagnosticTesttoOrder>Y</has1stDiagnosticTesttoOrder>
+        <hasOthertesttoConsider>Y</hasOthertesttoConsider>
+        <hasSuspectedSARS-CoV-2Infection>Y</hasSuspectedSARS-CoV-2Infection>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</hasAge>
+        <hasCaseHistoryDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasCaseHistoryDescription>
+        <hasCough rdf:datatype="http://www.w3.org/2001/XMLSchema#string">4 days
+bad</hasCough>
+        <hasDateofHospitalAdmission rdf:datatype="http://www.w3.org/2001/XMLSchema#string">14/01/2020</hasDateofHospitalAdmission>
+        <hasDiastolicPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></hasDiastolicPressure>
+        <hasFeverAfterPresentationinHospital rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></hasFeverAfterPresentationinHospital>
+        <hasFeverBeforePresentationinHospital rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></hasFeverBeforePresentationinHospital>
+        <hasFeveronPresentationinHospital rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">38.5</hasFeveronPresentationinHospital>
+        <hasGendre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</hasGendre>
+        <hasHeadache rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasHeadache>
+        <hasHistory>Returned from Business trip
+mainland China
+6 days ago</hasHistory>
+        <hasPulse rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</hasPulse>
+        <hasShortofBreath rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasShortofBreath>
+        <hasSysytolicPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></hasSysytolicPressure>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <hasAge rdf:datatype="http://www.w3.org/2001/XMLSchema#string">61</hasAge>
+        <hasCaseHistoryDescription rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasCaseHistoryDescription>
+        <hasCough rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasCough>
+        <hasDateofHospitalAdmission rdf:datatype="http://www.w3.org/2001/XMLSchema#string">03/02/2020</hasDateofHospitalAdmission>
+        <hasDiastolicPressure rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal"></hasDiastolicPressure>
+        <hasFatigue rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tired</hasFatigue>
+        <hasFeveronPresentationinHospital rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasFeveronPresentationinHospital>
+        <hasGendre rdf:datatype="http://www.w3.org/2001/XMLSchema#string">M</hasGendre>
+        <hasPulse rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</hasPulse>
+        <hasShortofBreath rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasShortofBreath>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC">
+        <hasCOVID-19EvaluationofPatientUnderInvestigationPUI rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19EvaluationofPatientUnderInvestigationPUI>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_CaseHistoryDiagnostic"/>
+        <hasAbdominalPain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasAbdominalPain>
+        <hasAnorexia rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasAnorexia>
+        <hasChestPain rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasChestPain>
+        <hasConfusion rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasConfusion>
+        <hasDiarrhoea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDiarrhoea>
+        <hasDizziness rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDizziness>
+        <hasHaemoptysis rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasHaemoptysis>
+        <hasNauseaVomiting rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasNauseaVomiting>
+        <hasRhinorrhoea rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasRhinorrhoea>
+        <hasSoreThroat rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasSoreThroat>
+        <hasSputumProduction rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasSputumProduction>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string"></hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Differential_Diagnosis"/>
+        <hasDifferentialDiagnosisfromCOVID-19 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDifferentialDiagnosisfromCOVID-19>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS-CoV-2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS-CoV-2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Aetiology"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"/>
+        <hasAetiology rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasAetiology>
+        <hasDefinition rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasDefinition>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO">
+        <rdf:type rdf:resource="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_Definition"/>
+        <hasCOVID-19DiagnosticCriteriaConfirmedCase rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19DiagnosticCriteriaConfirmedCase>
+        <hasCOVID-19DiagnosticCriteriaProbableCase rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19DiagnosticCriteriaProbableCase>
+        <hasCOVID-19DiagnosticCriteriaSuspectedCase rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Y</hasCOVID-19DiagnosticCriteriaSuspectedCase>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH5N1VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#AvianInfluenzaAH7N9VirusInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_InfectedIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_RecoveredIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleAsymptomaticIndividual"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#COVID-19_SuscetibleSymptomaticIndividual"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_01"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CaseHystoryPresentation_02"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherCaseHystoryPresentation_99"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#CentersforDiseaseControlandPrevention_CDC"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Common_cold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Community-aquired_pneumonia"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#Influenza_infection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#InternationalCommitteeonTaxonomyofViruses_ICTV"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#WorldHeathOrganization_WHO"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#MERS"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#OtherViralorBacterialRespiratoryInfection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDifferent"/>
+        <owl:distinctMembers rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#PulmonaryTuberculosis"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#SARS"/>
+        </owl:distinctMembers>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointProperties"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverAfterPresentationinHospital"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeverBeforePresentationinHospital"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia#hasFeveronPresentationinHospital"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

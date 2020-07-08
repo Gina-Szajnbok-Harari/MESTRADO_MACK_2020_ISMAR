@@ -1,0 +1,83 @@
+  INFO  23:26:15  ------------------------------------ Protege -----------------------------------
+   INFO  23:26:15  Protege Desktop
+   INFO  23:26:15  Version 5.5.0, Build 
+   INFO  23:26:15  
+   INFO  23:26:15  
+   INFO  23:26:15  ----------------------------------- Platform -----------------------------------
+   INFO  23:26:15  Java: JVM 1.8.0_121-b13  Memory: 466M
+   INFO  23:26:15  Language: pt, Country: BR
+   INFO  23:26:15  Framework: Apache Software Foundation (1.8) 
+   INFO  23:26:15  OS: windows10 (10.0)
+   INFO  23:26:15  Processor: x86-64
+
+   INFO  23:26:15  
+   INFO  23:26:15  ------------------------------------ Plugins -----------------------------------
+   INFO  23:26:15  Plugin: AOWLN-Tab (0.0.2)
+   INFO  23:26:15  Plugin: Cellfie Protege 5.0+ Plugin (2.1.0)
+   INFO  23:26:15  Plugin: OWL Code Generation Plug-in (2.0.0)
+   INFO  23:26:15  Plugin: Pellet Reasoner Plug-in (2.2.0)
+   INFO  23:26:15  Plugin: CoModIDE (1.1.1)
+   INFO  23:26:15  Plugin: CSV Export Plugin (1.0.0)
+   INFO  23:26:15  Plugin: OWL Hierarchy Protege Plugin (0.1.0)
+   INFO  23:26:15  Plugin: jcel (0.24.0)
+   INFO  23:26:15  Plugin: Existential Query (2.0.0)
+   INFO  23:26:15  Plugin: Explanation Workbench (3.0.0)
+   INFO  23:26:15  Plugin: Ontop OBDA Protégé plugin (3.0.1)
+   INFO  23:26:15  Plugin: Mastro Protégé Plugin (1.1.0)
+   INFO  23:26:15  Plugin: OAF Protege Plugin (1.1.0)
+   INFO  23:26:15  Plugin: OntoGraf (2.0.3)
+   INFO  23:26:15  Plugin: Change Tracker (2.0.2)
+   INFO  23:26:15  Plugin: DL Query (4.0.1)
+   INFO  23:26:15  Plugin: matrix (4.0.1)
+   INFO  23:26:15  Plugin: Ontology Debugger (0.2.2)
+   INFO  23:26:15  Plugin: Individual Properties Contextual Assertions (1.0.2)
+   INFO  23:26:15  Plugin: Properties in the Domain Class View (1.0.1)
+   INFO  23:26:15  Plugin: OWL Difference (6.0.2)
+   INFO  23:26:15  Plugin: OBO Annotations Editor (0.4.0)
+   INFO  23:26:15  Plugin: ELK Reasoner Protege Plug-in (0.4.3)
+   INFO  23:26:15  Plugin: HermiT Reasoner (1.4.3.456)
+   INFO  23:26:15  Plugin: OWLAx Protege 5.0+ Plugin (1.2.0)
+   INFO  23:26:15  Plugin: Browser View (OWLDoc) (3.0.3)
+   INFO  23:26:15  Plugin: OWLViz (5.0.3)
+   INFO  23:26:15  Plugin: OWLAPI RDF Library (3.0.0)
+   INFO  23:26:15  Plugin: ROWL Protege 5.0+ Plugin (1.6.0)
+   INFO  23:26:15  Plugin: SHACL4Protege (1.0.0)
+   INFO  23:26:15  Plugin: snap-sparql-query-plugin (6.0.0)
+   INFO  23:26:16  Plugin: SPARQL Query Plugin (3.0.0)
+   INFO  23:26:16  Plugin: SRE-Tab (0.2.1)
+   INFO  23:26:16  Plugin: SWRLTab Plugin (2.0.8)
+   WARN  23:26:16  Plugin: Factplusplus Plug-in (1.6.5) was not successfully started.  Please see the Protégé log for more details.
+   INFO  23:26:16  
+   INFO  23:26:24  Creating and setting up empty (default) editor kit
+   INFO  23:26:24  OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+   INFO  23:26:34  Cannot generate ontology catalog for ontology at http://www.semanticweb.org/mauro/ontologies/2020/6/untitled-ontology-10. URI scheme is not "file"
+   INFO  23:26:38  ------------------------------- Auto-update Check ------------------------------
+   INFO  23:26:38  Auto-update last performed: Tue Jul 07 14:40:11 BRT 2020
+   INFO  23:26:38  Auto-update has been performed today.  Not performing it again.
+   INFO  23:26:38  
+   INFO  23:30:21  OWL API Version: 4.5.9.2019-02-01T07:24:44Z
+   INFO  23:30:31  ------------------------------- Loading Ontology -------------------------------
+   INFO  23:30:31  Loading ontology from file:/C:/Projects/MACK/D3/hands-on/Projetos/Aula_10_Ontologia/Ontology_project_GSH_72008075/Phase%201%20-%20Final%20Project_Epidemiology_RDF_XML.owl
+   INFO  23:30:33  Finished loading file:/C:/Projects/MACK/D3/hands-on/Projetos/Aula_10_Ontologia/Ontology_project_GSH_72008075/Phase%201%20-%20Final%20Project_Epidemiology_RDF_XML.owl
+   WARN  23:30:33  No OBDA model was loaded because no .obda file exists in the same location as the .owl file
+   INFO  23:30:33  Loading for ontology and imports closure successfully completed in 1564 ms
+   INFO  23:30:33  
+   INFO  23:30:34  ---------------------------- Disposing of Workspace ----------------------------
+   INFO  23:30:34  Saved tab state for 'DL Query' tab
+   INFO  23:30:34  Saved tab state for 'Individuals by class' tab
+   INFO  23:30:34  Saved tab state for 'Individual Hierarchy Tab' tab
+   INFO  23:30:34  Saved tab state for 'Active ontology' tab
+   INFO  23:30:34  Saved tab state for 'Entities' tab
+   INFO  23:30:34  Saved workspace
+   INFO  23:30:34  Disposed of 'DL Query' tab
+   INFO  23:30:34  Disposed of 'Individuals by class' tab
+   INFO  23:30:34  Disposed of 'Individual Hierarchy Tab' tab
+   INFO  23:30:34  Disposed of 'Active ontology' tab
+   INFO  23:30:34  Disposed of 'Entities' tab
+   INFO  23:30:34  Disposed of workspace
+   INFO  23:30:34  
+   INFO  23:31:25  Saving Epidemiologia
+   INFO  23:31:25  Saving ontology to temp file: C:\Users\mauro\AppData\Local\Temp\temp-ontology8491053455867765471
+   INFO  23:31:26  Copying ontology from temp file (C:\Users\mauro\AppData\Local\Temp\temp-ontology8491053455867765471) to actual destination (C:\Projects\MACK\D3\hands-on\Projetos\Aula_10_Ontologia\Ontology_project_GSH_72008075\Phase 1 - Final Project_Epidemiology_JSON.owl)
+   INFO  23:31:26  Removing temp file: C:\Users\mauro\AppData\Local\Temp\temp-ontology8491053455867765471
+   INFO  23:31:27  Saved ontology OntologyID(OntologyIRI(<http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia>) VersionIRI(<http://www.semanticweb.org/cesar/ontologies/2020/5/Epidemiologia/1.0.0>)) to file:/C:/Projects/MACK/D3/hands-on/Projetos/Aula_10_Ontologia/Ontology_project_GSH_72008075/Phase%201%20-%20Final%20Project_Epidemiology_JSON.owl in JSON-LD format
