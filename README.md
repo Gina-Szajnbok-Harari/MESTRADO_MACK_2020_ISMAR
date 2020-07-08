@@ -39,6 +39,13 @@ https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Pro
 
 Projeto Final da Ontologia:
 
+https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/blob/master/Ontology_project_GSH_72008075
+
+(Arquivo: Phase%205%20-%20Final%20Project_Epidemiology_RDF_XML.owl)
+(Atividades (ultima versão): Atividades do dia 30 junho a 07 julho.docx)
+(texto Base: 2020_BMJ best Practice COVID-19. BMJ Publishing Group Ltd. 2020, London_COVID-1.pdf)
+
+
 
 
 
