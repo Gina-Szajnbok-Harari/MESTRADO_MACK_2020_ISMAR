@@ -3,7 +3,7 @@ Repositório para as atividades da disciplina
 
 001ENST09921.03859-01A - VISUALIZACAO/PROCES DE CONHECIMENTO [turma 01A] - 2020
 
-LINKS DAS TAREFAS E HANDS ON:
+LINKS DAS TAREFAS, HANDS ON e PROJETO FINAL DA ONTOLOGIA:
 
 1) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%201
 2) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa%202
@@ -25,7 +25,6 @@ LINKS DAS TAREFAS E HANDS ON:
 18) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa_18_slide
 19) https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Tarefa_19_slide
 
-
 Hands on
 
 https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Hands-on_Cloud_Visualizacao_de_texto
@@ -37,6 +36,10 @@ https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Pro
 https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Hands-on_3_Informa%C3%A7%C3%A3o_Hierarquica
 
 https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/tree/master/Projetos/Hands_on_Redes%20Bayesianas
+
+Projeto Final da Ontologia:
+
+
 
 
 
