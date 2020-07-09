@@ -41,7 +41,7 @@ Projeto Final da Ontologia:
 
 https://github.com/Gina-Szajnbok-Harari/MESTRADO_MACK_2020_ISMAR/blob/master/Ontology_project_GSH_72008075
 
-Arquivo: Phase%205%20-%20Final%20Project_Epidemiology_RDF_XML.owl
+Arquivo: Phase%205%20-%20Final%20Project_Epidemiology_RDF_XML_V5.owl
 
 Atividades (Última versão): Atividades do dia 30 junho a 07 julho.docx
 
