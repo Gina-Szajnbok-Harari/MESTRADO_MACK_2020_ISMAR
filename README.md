@@ -45,7 +45,7 @@ Arquivo: "Phase 5 - Final Project_Epidemiology_RDF_XML_V4.owl"
 
 Atividades (Última versão): Atividades do dia 30 junho a 07 julho.docx
 
-Texto Base: 2020_BMJ%20best%20Practice%20COVID-19.%20BMJ%20Publishing%20Group%20Ltd.%202020,%20London_COVID-1.pdf
+Texto Base: "2020_BMJ best Practice COVID-19. BMJ Publishing Group Ltd. 2020, London_COVID-1.pdf"
 
 Demais arquivos: Textos auxiliares, arquivos de fases de testes e elaboração.
 
